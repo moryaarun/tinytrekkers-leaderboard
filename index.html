@@ -1,144 +1,1657 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Tiny Trekkers – Kids Trek Leaderboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiny Trekkers Pune | Kids &amp; Family Trekking in Sahyadri Mountains</title>
+<meta name="description" content="Tiny Trekkers is Pune's favourite kids &amp; family trekking company, guiding safe, expert-led treks across the Sahyadri and Western Ghats — Sinhgad, Lohgad, Kalsubai, Malhargad &amp; more. Book your next weekend trek today!">
+<meta name="keywords" content="trekking Pune, kids trekking Pune, family treks Maharashtra, Sahyadri treks, weekend treks near Pune, trek for children, Sinhgad trek, Lohgad trek, Kalsubai trek, Malhargad trek, Vasota trek, adventure camps for kids, trekking company Pune, hiking Pune, Western Ghats trekking, Tiny Trekkers">
+<meta name="author" content="Tiny Trekkers">
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/jpeg" href="data:image/jpeg;base64,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">
+<link rel="canonical" href="https://www.tinytrekkers.in/">
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tiny Trekkers Pune | Kids &amp; Family Trekking in Sahyadri Mountains">
+<meta property="og:description" content="Safe, expert-guided treks for kids and families across the Sahyadri ranges near Pune. Small groups, certified guides, unforgettable adventures.">
+<meta property="og:url" content="https://www.tinytrekkers.in/">
+<meta property="og:site_name" content="Tiny Trekkers">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tiny Trekkers Pune | Kids &amp; Family Trekking">
+<meta name="twitter:description" content="Safe, expert-guided treks for kids and families across the Sahyadri ranges near Pune.">
+<meta name="geo.placename" content="Pune, Maharashtra, India">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "Tiny Trekkers",
+  "description": "Kids and family trekking company in Pune guiding safe, expert-led treks across the Sahyadri mountains.",
+  "url": "https://www.tinytrekkers.in/",
+  "telephone": "+91-90963-54524",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "62, Kharadkar Nagar, Sainikwadi, Wadgaon Sheri",
+    "addressLocality": "Pune",
+    "postalCode": "411014",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.instagram.com/tinytrekkers.pune"
+  ]
+}
+</script>
 <style>
-:root{--bg:#EAF5FA;--card:#fff;--text:#12214A;--mute:#5A6785;--line:#DCE6EE;--bar:#5DB7DE;--y:#FFC84A;--n:#12214A;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1430;--card:#14214A;--text:#F2F5FA;--mute:#9AA8C7;--line:#243562}}
-:root[data-theme="dark"]{--bg:#0B1430;--card:#14214A;--text:#F2F5FA;--mute:#9AA8C7;--line:#243562}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}
-header{background:#12214A;color:#fff;padding:36px 20px 70px;text-align:center}
-.logo{display:block;margin:0 auto 12px;width:96px;height:96px;border-radius:50%;object-fit:cover}
-.brand{font-size:13px;letter-spacing:5px;color:var(--y);font-weight:700}
-h1{margin:10px 0 6px;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(52px,12vw,92px);line-height:.95;letter-spacing:2px}
-h1 span{color:var(--y)}
-header p{margin:0;color:#C5D0EA}
-main{max-width:760px;margin:-44px auto 40px;padding:0 14px}
-.stats{display:flex;gap:10px;margin-bottom:14px}
-.stat{flex:1;background:var(--card);border-radius:14px;padding:14px;text-align:center;box-shadow:0 2px 10px rgba(18,33,74,.12)}
-.stat b{display:block;font-family:'Bebas Neue',sans-serif;font-size:38px;font-weight:400;line-height:1}
-.stat span{font-size:12px;letter-spacing:2px;color:var(--mute);font-weight:700}
-input{width:100%;padding:13px 16px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--text);font:inherit;margin-bottom:12px}
-ul{list-style:none;margin:0;padding:0;background:var(--card);border-radius:16px;overflow:hidden;box-shadow:0 2px 10px rgba(18,33,74,.12)}
-.row{display:flex;align-items:center;gap:12px;padding:11px 14px;border-bottom:1px solid var(--line)}
-.row:last-child{border:0}
-.rk{width:30px;font-family:'Bebas Neue',sans-serif;font-size:24px;color:var(--mute);text-align:center}
-.nm{flex:0 0 38%;font-weight:700;min-width:0;overflow-wrap:anywhere}
-.bar{flex:1;height:10px;background:var(--line);border-radius:99px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--bar);border-radius:99px}
-.km{width:62px;text-align:right;font-family:'Bebas Neue',sans-serif;font-size:30px;line-height:1}
-.km small{font-family:'DM Sans',sans-serif;font-size:11px;margin-left:3px;color:var(--mute);font-weight:700}
-.silver{background:linear-gradient(90deg,rgba(255,200,74,.28),transparent)}
-.silver .rk{color:var(--text)}
-.silver .bar i{background:var(--y)}
-.tag{margin:0 0 10px;font-size:13px;color:var(--mute)}
-#none{display:none;text-align:center;padding:24px;color:var(--mute)}
-@media(max-width:520px){.nm{flex-basis:44%;font-size:14px}.bar{display:none}.nm{flex:1}}
+:root{
+  --forest:#1B2F1A;--moss:#2D4829;--sage:#4E7249;--fern:#6B9464;
+  --mist:#B5CEAD;--cream:#F6F1E7;--parch:#EDE3CC;--amber:#C07A28;
+  --gold:#DFA53A;--stone:#7A6347;--bark:#4A3728;--white:#FDFAF4;
+  --text:#1B2F1A;--sub:#5A6B52;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',sans-serif;background:var(--white);color:var(--text);font-size:15px}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--cream)}
+::-webkit-scrollbar-thumb{background:var(--fern);border-radius:10px}
+
+/* ── NAV ── */
+nav{position:sticky;top:0;z-index:100;background:var(--forest);display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;height:62px;box-shadow:0 2px 20px rgba(0,0,0,0.3)}
+.brand{font-family:'Fraunces',serif;font-size:1.4rem;color:var(--white);letter-spacing:0.01em;white-space:nowrap}
+.brand b{color:var(--gold)}
+.nav-links{display:flex;gap:0;list-style:none}
+.nav-links li a{display:block;padding:0 0.75rem;height:62px;line-height:62px;color:rgba(255,255,255,0.78);font-size:0.78rem;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;text-decoration:none;transition:all 0.2s;white-space:nowrap}
+.nav-links li a:hover{color:var(--gold);background:rgba(255,255,255,0.05)}
+.nav-links li a.active{color:var(--gold);border-bottom:2px solid var(--gold)}
+.nav-wa{background:var(--amber);color:var(--white);padding:0.4rem 0.85rem;border-radius:20px;font-size:0.76rem;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:5px;white-space:nowrap;transition:background 0.2s;flex-shrink:0}
+.nav-wa:hover{background:var(--gold);color:var(--forest)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;flex-shrink:0}
+.hamburger span{width:22px;height:2px;background:var(--white);border-radius:2px}
+.mob-menu{display:none;position:fixed;top:62px;left:0;right:0;background:var(--forest);z-index:99;flex-direction:column;border-top:1px solid rgba(255,255,255,0.1);max-height:calc(100vh - 62px);overflow-y:auto}
+.mob-menu.open{display:flex}
+.mob-menu a{padding:0.9rem 2rem;color:rgba(255,255,255,0.8);font-size:0.9rem;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.07);transition:color 0.2s}
+.mob-menu a:hover{color:var(--gold)}
+
+/* ── HERO ── */
+.hero{background:var(--forest);position:relative;overflow:hidden;padding:5rem 2rem 4rem;text-align:center;min-height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 60%,rgba(110,148,100,0.18) 0%,transparent 55%),radial-gradient(ellipse at 80% 20%,rgba(192,122,40,0.12) 0%,transparent 45%)}
+.hero-dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,0.06) 1px,transparent 1px);background-size:28px 28px}
+.hero-badge{display:inline-flex;align-items:center;gap:7px;background:rgba(192,122,40,0.2);border:1px solid rgba(192,122,40,0.45);color:var(--gold);font-size:0.72rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;padding:0.35rem 1rem;border-radius:20px;margin-bottom:1.2rem;position:relative}
+.hero-title{font-family:'Fraunces',serif;font-size:clamp(2.2rem,6vw,3.8rem);color:var(--white);line-height:1.1;margin-bottom:1rem;position:relative;font-weight:400}
+.hero-title em{color:var(--gold);font-style:italic}
+.hero-sub{font-size:0.95rem;color:rgba(255,255,255,0.65);font-weight:300;line-height:1.7;max-width:500px;margin:0 auto 2rem;position:relative}
+.hero-btns{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative}
+.btn-hero{padding:0.8rem 1.8rem;border-radius:3px;font-size:0.82rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;transition:all 0.22s;display:inline-flex;align-items:center;gap:7px}
+.btn-forest{background:var(--amber);color:var(--white)}
+.btn-forest:hover{background:var(--gold);color:var(--forest);transform:translateY(-2px)}
+.btn-ghost{border:1px solid rgba(255,255,255,0.35);color:var(--white)}
+.btn-ghost:hover{background:rgba(255,255,255,0.1)}
+.hero-chips{display:flex;gap:2rem;justify-content:center;margin-top:2.5rem;position:relative;flex-wrap:wrap}
+.chip{text-align:center}
+.chip-num{font-family:'Fraunces',serif;font-size:1.9rem;color:var(--gold);line-height:1}
+.chip-label{font-size:0.68rem;color:rgba(255,255,255,0.45);letter-spacing:0.1em;text-transform:uppercase;margin-top:3px}
+
+/* ── SECTION COMMONS ── */
+/* FIX: Reduced padding from 4.5rem to 3rem to tighten sections */
+.section{padding:3rem 2rem}
+.section-alt{background:var(--cream)}
+.section-dark{background:var(--moss)}
+.sec-label{font-size:0.7rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--amber);margin-bottom:0.4rem}
+.sec-title{font-family:'Fraunces',serif;font-size:clamp(1.7rem,3vw,2.4rem);color:var(--forest);line-height:1.15;font-weight:400;margin-bottom:0.3rem}
+.sec-title em{color:var(--sage);font-style:italic}
+.sec-title-white{color:var(--white)}
+/* FIX: Reduced margin-bottom on sec-sub from 2.5rem to 1.5rem */
+.sec-sub{font-size:0.88rem;color:var(--sub);font-weight:300;line-height:1.7;margin-bottom:1.5rem;max-width:520px}
+.inner{max-width:1060px;margin:0 auto}
+
+/* ── UPCOMING EVENTS ── */
+.events-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}
+.event-card{background:var(--white);border-radius:6px;overflow:hidden;border:1px solid var(--parch);transition:transform 0.25s,box-shadow 0.25s;position:relative;display:flex;flex-direction:column}
+.event-card:hover{transform:translateY(-4px);box-shadow:0 14px 36px rgba(27,47,26,0.12)}
+.event-header{height:8px;background:linear-gradient(90deg,var(--sage),var(--fern));flex-shrink:0}
+.event-header.hard{background:linear-gradient(90deg,#8B4513,#C07A28)}
+.event-header.easy{background:linear-gradient(90deg,#4E7249,#B5CEAD)}
+.event-body{padding:1.1rem 1.3rem;position:relative;flex:1;display:flex;flex-direction:column}
+.event-diff{font-size:0.67rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.5rem;display:flex;align-items:center;gap:6px}
+.diff-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.d-easy{color:#2D4829}.d-moderate{color:#7A4A10}.d-hard{color:#5A2A0A}
+.event-name{font-family:'Fraunces',serif;font-size:1.2rem;color:var(--forest);font-weight:600;margin-bottom:0.6rem}
+.event-meta{display:flex;flex-direction:column;gap:4px;margin-bottom:0.85rem}
+.em-row{display:flex;align-items:center;gap:7px;font-size:0.8rem;color:var(--stone)}
+.em-icon{width:18px;text-align:center;font-size:0.82rem;flex-shrink:0}
+.em-val{font-weight:700;color:var(--forest)}
+
+/* ── ADVANCE PAYMENT BOX ── */
+.advance-box{background:linear-gradient(135deg,#FFF9F0,#FFF3E0);border:1px solid #F5D99A;border-radius:5px;padding:0.75rem 1rem;margin-bottom:0.85rem}
+.advance-title{font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:0.4rem}
+.advance-prices{display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap}
+.full-price{font-size:0.78rem;color:var(--stone);text-decoration:line-through}
+.advance-amount{font-family:'Fraunces',serif;font-size:1.3rem;color:var(--amber);font-weight:600;line-height:1}
+.advance-label{font-size:0.72rem;color:var(--stone);font-weight:600}
+.advance-note{font-size:0.7rem;color:var(--stone);margin-top:3px;font-weight:300}
+
+.event-footer{display:flex;align-items:center;justify-content:space-between;padding-top:0.75rem;border-top:1px solid var(--parch);margin-top:auto;gap:0.5rem;flex-wrap:wrap}
+.event-price{font-family:'Fraunces',serif;font-size:1.4rem;color:var(--forest);font-weight:600;line-height:1}
+.event-price span{font-family:'Nunito',sans-serif;font-size:0.72rem;color:var(--stone);font-weight:400}
+.slots-left{font-size:0.7rem;color:var(--amber);font-weight:700;margin-top:3px}
+.book-wa{display:inline-flex;align-items:center;gap:5px;background:#25D366;color:var(--white);padding:0.5rem 0.9rem;border-radius:3px;font-size:0.76rem;font-weight:700;text-decoration:none;transition:background 0.2s;white-space:nowrap}
+.book-wa:hover{background:#1DA851}
+.book-wa.advance{background:var(--amber)}
+.book-wa.advance:hover{background:var(--gold);color:var(--forest)}
+
+/* ── ON DEMAND ── */
+.demand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem}
+.demand-card{background:var(--white);border:1px solid var(--parch);border-radius:6px;padding:1.25rem 1.1rem;text-align:center;transition:all 0.25s;cursor:pointer;position:relative;overflow:hidden}
+.demand-card::before{content:'';position:absolute;bottom:0;left:0;width:0;height:3px;background:var(--amber);transition:width 0.35s}
+.demand-card:hover::before{width:100%}
+.demand-card:hover{box-shadow:0 8px 28px rgba(27,47,26,0.1);transform:translateY(-3px)}
+.dc-icon{font-size:1.8rem;margin-bottom:0.6rem}
+.dc-name{font-family:'Fraunces',serif;font-size:1rem;color:var(--forest);font-weight:600;margin-bottom:3px}
+.dc-region{font-size:0.72rem;color:var(--stone);margin-bottom:0.5rem}
+.dc-tags{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;margin-bottom:0.6rem}
+.dc-tag{font-size:0.62rem;font-weight:700;padding:2px 7px;border-radius:10px;background:var(--cream);color:var(--stone)}
+.dc-info{font-size:0.76rem;color:var(--sub);line-height:1.5;margin-bottom:0.8rem;font-weight:300}
+.req-btn{background:var(--forest);color:var(--white);border:none;padding:0.45rem 1rem;border-radius:3px;font-size:0.73rem;font-weight:700;cursor:pointer;font-family:'Nunito',sans-serif;letter-spacing:0.05em;text-transform:uppercase;transition:background 0.2s;text-decoration:none;display:inline-block}
+.req-btn:hover{background:var(--amber)}
+
+/* ── TREK PLACES ── */
+.places-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0.9rem}
+.place-item{background:var(--white);border-radius:6px;border-left:4px solid var(--fern);padding:0.9rem 1.1rem;display:flex;align-items:flex-start;gap:0.9rem;transition:box-shadow 0.2s}
+.place-item:hover{box-shadow:0 5px 18px rgba(27,47,26,0.09)}
+.place-item.hard-place{border-left-color:var(--amber)}
+.pi-icon{font-size:1.4rem;flex-shrink:0;margin-top:1px}
+.pi-name{font-size:0.92rem;font-weight:700;color:var(--forest);margin-bottom:2px}
+.pi-loc{font-size:0.72rem;color:var(--stone);margin-bottom:4px}
+.pi-tags{display:flex;gap:4px;flex-wrap:wrap}
+.pi-tag{font-size:0.62rem;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:0.03em}
+.t-easy{background:#EAF3E4;color:#2D4829}
+.t-mod{background:#FFF3E0;color:#7A4A10}
+.t-hard{background:#FDEAEA;color:#7A2020}
+.t-pop{background:#FFF9E6;color:#7A5A10}
+
+/* ── INQUIRY ── */
+.inquiry-wrap{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.inquiry-left{}
+.inquiry-left .sec-sub{margin-bottom:1.2rem}
+.inq-perks{display:flex;flex-direction:column;gap:0.7rem;margin-top:1rem}
+.inq-perk{display:flex;align-items:center;gap:10px;font-size:0.85rem;color:var(--sub)}
+.inq-perk-dot{width:7px;height:7px;background:var(--amber);border-radius:50%;flex-shrink:0}
+.inquiry-form{background:var(--white);border:1px solid var(--parch);border-radius:8px;padding:1.75rem}
+.inq-title{font-family:'Fraunces',serif;font-size:1.3rem;color:var(--forest);margin-bottom:1.25rem;font-weight:600}
+.form-group{margin-bottom:1rem}
+.form-label{display:block;font-size:0.72rem;font-weight:700;color:var(--stone);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:5px}
+.form-input,.form-select{width:100%;padding:0.7rem 0.9rem;border:1px solid var(--parch);border-radius:4px;font-family:'Nunito',sans-serif;font-size:0.9rem;color:var(--forest);background:var(--cream);transition:border-color 0.2s;outline:none}
+.form-input:focus,.form-select:focus{border-color:var(--sage);background:var(--white)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:0.85rem}
+.submit-btn{width:100%;background:var(--forest);color:var(--white);border:none;padding:0.9rem;border-radius:4px;font-family:'Nunito',sans-serif;font-size:0.875rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;cursor:pointer;transition:background 0.2s;margin-top:0.25rem;display:flex;align-items:center;justify-content:center;gap:8px}
+.submit-btn:hover{background:var(--amber)}
+.form-success{display:none;text-align:center;padding:2rem 1rem}
+.fs-icon{font-size:2rem;margin-bottom:0.75rem}
+.fs-title{font-family:'Fraunces',serif;font-size:1.3rem;color:var(--forest);margin-bottom:0.4rem}
+.fs-desc{font-size:0.85rem;color:var(--sub);line-height:1.6}
+
+/* ── ABOUT ── */
+.about-inner{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.about-text .sec-title{color:var(--white)}
+.about-text .sec-title em{color:var(--gold)}
+.about-desc{color:rgba(255,255,255,0.7);font-size:0.9rem;line-height:1.8;font-weight:300;margin-bottom:0.85rem}
+.about-highlights{display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:1.2rem}
+.ah-item{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:4px;padding:0.85rem}
+.ah-icon{font-size:1.2rem;margin-bottom:5px}
+.ah-title{font-size:0.8rem;font-weight:700;color:var(--white);margin-bottom:2px}
+.ah-desc{font-size:0.73rem;color:rgba(255,255,255,0.5);line-height:1.5}
+.about-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.as-card{background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:6px;padding:1.4rem;text-align:center}
+.as-num{font-family:'Fraunces',serif;font-size:2.4rem;color:var(--gold);line-height:1;font-weight:600}
+.as-label{font-size:0.7rem;color:rgba(255,255,255,0.45);margin-top:5px;letter-spacing:0.08em;text-transform:uppercase}
+.as-card:nth-child(2){margin-top:1.2rem}
+.as-card:nth-child(4){margin-top:-1.2rem}
+
+/* ── SUPPORT ── */
+.support-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.support-card{background:var(--white);border-radius:6px;padding:1.4rem;border:1px solid var(--parch);display:flex;gap:1rem;align-items:flex-start;transition:box-shadow 0.2s}
+.support-card:hover{box-shadow:0 6px 22px rgba(27,47,26,0.09)}
+.sc-icon{width:48px;height:48px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.sc-phone{background:#EAF3E4}.sc-email{background:#FFF9E6}.sc-wa{background:#E6F9EE}.sc-time{background:#F0F4FF}
+.sc-label{font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--stone);margin-bottom:4px}
+.sc-value{font-size:0.95rem;font-weight:700;color:var(--forest);margin-bottom:2px}
+.sc-value a{color:var(--forest);text-decoration:none;transition:color 0.2s}
+.sc-value a:hover{color:var(--amber)}
+.sc-note{font-size:0.76rem;color:var(--stone);font-weight:300;line-height:1.5}
+
+/* ── T&C ── */
+.tnc-tabs{display:flex;gap:0;border-bottom:2px solid var(--parch);margin-bottom:1.75rem;flex-wrap:wrap}
+.tnc-tab{padding:0.65rem 1.2rem;font-size:0.8rem;font-weight:700;color:var(--stone);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.2s;white-space:nowrap}
+.tnc-tab:hover{color:var(--forest)}
+.tnc-tab.active{color:var(--amber);border-bottom-color:var(--amber)}
+.tnc-panel{display:none;animation:fadeIn 0.3s ease}
+.tnc-panel.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.tnc-content{max-width:760px}
+.tnc-content h3{font-family:'Fraunces',serif;font-size:1.1rem;color:var(--forest);margin-bottom:0.5rem;font-weight:600;margin-top:1.25rem}
+.tnc-content h3:first-child{margin-top:0}
+.tnc-content p{font-size:0.85rem;color:var(--sub);line-height:1.8;font-weight:300;margin-bottom:0.65rem}
+.tnc-content ul{padding-left:1.2rem;margin-bottom:0.65rem}
+.tnc-content ul li{font-size:0.85rem;color:var(--sub);line-height:1.8;font-weight:300;margin-bottom:3px}
+.tnc-content strong{color:var(--forest);font-weight:600}
+.tnc-box{background:var(--parch);border-left:3px solid var(--amber);border-radius:0 4px 4px 0;padding:0.85rem 1.1rem;margin-bottom:1rem}
+.tnc-box p{margin-bottom:0}
+
+/* ── CONTACT ── */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:start}
+.contact-details{display:flex;flex-direction:column;gap:1.1rem;margin-top:1.25rem}
+.cd-item{display:flex;gap:0.9rem;align-items:flex-start}
+.cd-icon{width:42px;height:42px;background:var(--cream);border:1px solid var(--parch);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0}
+.cd-label{font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--stone);margin-bottom:2px}
+.cd-value{font-size:0.9rem;font-weight:700;color:var(--forest);line-height:1.5}
+.cd-value a{color:var(--forest);text-decoration:none}
+.cd-value a:hover{color:var(--amber)}
+.cd-note{font-size:0.75rem;color:var(--stone);font-weight:300;margin-top:1px}
+.contact-map-wrap{background:var(--cream);border:1px solid var(--parch);border-radius:6px;overflow:hidden}
+.map-top{padding:1.2rem 1.4rem;background:var(--forest)}
+.map-name{font-family:'Fraunces',serif;font-size:1.05rem;color:var(--white);margin-bottom:3px}
+.map-addr{font-size:0.78rem;color:rgba(255,255,255,0.55);line-height:1.6}
+.map-visual{height:200px;background:linear-gradient(135deg,#d4e9c8 0%,#b8d4a8 40%,#c8ddb8 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:7px;position:relative;overflow:hidden}
+.map-visual::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(0,0,0,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,0.03) 1px,transparent 1px);background-size:30px 30px}
+.map-pin{font-size:2.2rem;position:relative}
+.map-text{font-size:0.78rem;color:#2D4829;font-weight:700;position:relative}
+.map-btn{display:block;text-align:center;padding:0.85rem;background:var(--white);font-size:0.8rem;font-weight:700;color:var(--forest);text-decoration:none;letter-spacing:0.05em;text-transform:uppercase;border-top:1px solid var(--parch);transition:background 0.2s}
+.map-btn:hover{background:var(--cream)}
+.wa-cta-box{background:var(--forest);border-radius:6px;padding:1.25rem;margin-top:1.25rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.wa-cta-text{flex:1;min-width:140px}
+.wa-cta-title{font-size:0.88rem;font-weight:700;color:var(--white);margin-bottom:2px}
+.wa-cta-desc{font-size:0.75rem;color:rgba(255,255,255,0.55)}
+.wa-cta-btn{background:#25D366;color:var(--white);padding:0.6rem 1.2rem;border-radius:3px;font-size:0.8rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:6px;white-space:nowrap;transition:background 0.2s}
+.wa-cta-btn:hover{background:#1DA851}
+
+/* ── WHATSAPP FLOAT ── */
+.wa-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;display:flex;flex-direction:column;align-items:flex-end;gap:0.5rem}
+.wa-float-btn{width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:0 6px 22px rgba(37,211,102,0.5);text-decoration:none;transition:transform 0.2s;animation:waPulse 2.5s ease infinite}
+.wa-float-btn:hover{transform:scale(1.1)}
+@keyframes waPulse{0%,100%{box-shadow:0 6px 22px rgba(37,211,102,0.5)}50%{box-shadow:0 6px 28px rgba(37,211,102,0.75),0 0 0 7px rgba(37,211,102,0.12)}}
+.wa-float-label{background:var(--forest);color:var(--white);font-size:0.7rem;font-weight:700;padding:4px 10px;border-radius:20px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
+
+/* ── CALLBACK FLOAT ── */
+.cb-float{position:fixed;bottom:1.5rem;left:1.5rem;z-index:200;display:flex;flex-direction:column;align-items:flex-start;gap:0.5rem}
+.cb-float-btn{width:56px;height:56px;background:var(--amber);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;box-shadow:0 6px 22px rgba(192,122,40,0.5);cursor:pointer;border:none;transition:transform 0.2s,box-shadow 0.2s;animation:cbPulse 2.8s ease infinite}
+.cb-float-btn:hover{transform:scale(1.1);box-shadow:0 10px 28px rgba(192,122,40,0.65)}
+@keyframes cbPulse{0%,100%{box-shadow:0 6px 22px rgba(192,122,40,0.5)}50%{box-shadow:0 6px 28px rgba(192,122,40,0.75),0 0 0 7px rgba(192,122,40,0.12)}}
+.cb-float-label{background:var(--amber);color:var(--white);font-size:0.7rem;font-weight:700;padding:4px 10px;border-radius:20px;white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
+
+/* ── CALLBACK POPUP ── */
+.cb-popup-overlay{position:fixed;inset:0;background:rgba(27,47,26,0.6);z-index:300;display:none;align-items:flex-end;justify-content:flex-start;padding:1.5rem;backdrop-filter:blur(3px)}
+.cb-popup-overlay.open{display:flex}
+.cb-popup{background:var(--white);border-radius:12px;padding:1.5rem;width:100%;max-width:360px;box-shadow:0 24px 60px rgba(0,0,0,0.25);animation:popUp 0.3s cubic-bezier(0.34,1.56,0.64,1) both;position:relative;max-height:90vh;overflow-y:auto}
+@keyframes popUp{from{opacity:0;transform:translateY(20px) scale(0.95)}to{opacity:1;transform:translateY(0) scale(1)}}
+.cb-popup-head{display:flex;align-items:center;gap:10px;margin-bottom:1.25rem}
+.cb-popup-icon{width:42px;height:42px;background:linear-gradient(135deg,var(--amber),var(--gold));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;box-shadow:0 4px 12px rgba(192,122,40,0.35)}
+.cb-popup-title{font-family:'Fraunces',serif;font-size:1.1rem;color:var(--forest);font-weight:600;line-height:1.2}
+.cb-popup-sub{font-size:0.72rem;color:var(--stone);margin-top:1px}
+.cb-close{position:absolute;top:1rem;right:1rem;background:var(--cream);border:none;width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:0.85rem;display:flex;align-items:center;justify-content:center;color:var(--stone);transition:background 0.2s}
+.cb-close:hover{background:var(--parch)}
+.cb-form-group{margin-bottom:0.85rem}
+.cb-label{display:block;font-size:0.68rem;font-weight:700;color:var(--stone);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px}
+.cb-input,.cb-select{width:100%;padding:0.65rem 0.85rem;border:1px solid var(--parch);border-radius:5px;font-family:'Nunito',sans-serif;font-size:0.88rem;color:var(--forest);background:var(--cream);transition:border-color 0.2s;outline:none}
+.cb-input:focus,.cb-select:focus{border-color:var(--sage);background:var(--white)}
+.cb-submit{width:100%;background:var(--amber);color:var(--white);border:none;padding:0.85rem;border-radius:5px;font-family:'Nunito',sans-serif;font-size:0.85rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;transition:background 0.2s;margin-top:0.25rem;display:flex;align-items:center;justify-content:center;gap:7px}
+.cb-submit:hover{background:var(--forest)}
+.cb-success{text-align:center;padding:1.5rem 0.5rem;display:none}
+.cb-success-icon{font-size:2.2rem;margin-bottom:0.6rem}
+.cb-success-title{font-family:'Fraunces',serif;font-size:1.2rem;color:var(--forest);margin-bottom:0.4rem}
+.cb-success-desc{font-size:0.82rem;color:var(--sub);line-height:1.6}
+
+/* ── GALLERY / INSTAGRAM ── */
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:1rem;margin-bottom:1.75rem}
+.gallery-card{position:relative;aspect-ratio:1/1;border-radius:8px;overflow:hidden;background:linear-gradient(145deg,var(--sage),var(--forest));display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;transition:transform 0.3s,box-shadow 0.3s;cursor:default}
+.gallery-card:hover{transform:translateY(-4px) scale(1.02);box-shadow:0 14px 32px rgba(27,47,26,0.22)}
+.gallery-card .gc-icon{font-size:1.9rem;margin-bottom:0.4rem;display:block}
+.gallery-card .gc-cap{font-family:'Fraunces',serif;color:var(--white);font-size:0.85rem;line-height:1.3}
+.gallery-card::after{content:'';position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,rgba(255,255,255,0.12),transparent 60%)}
+.gallery-card.gc-2{background:linear-gradient(145deg,var(--amber),#8B4513)}
+.gallery-card.gc-3{background:linear-gradient(145deg,var(--fern),var(--moss))}
+.gallery-card.gc-4{background:linear-gradient(145deg,var(--gold),var(--amber))}
+.gallery-card.gc-5{background:linear-gradient(145deg,#7A6347,var(--bark))}
+.gallery-card.gc-6{background:linear-gradient(145deg,var(--moss),#1B2F1A)}
+.insta-cta{display:flex;align-items:center;gap:1.1rem;background:linear-gradient(135deg,#f9ce34,#ee2a7b 45%,#6228d7);border-radius:10px;padding:1.4rem 1.6rem;flex-wrap:wrap;justify-content:space-between}
+.insta-cta-text{display:flex;align-items:center;gap:0.9rem}
+.insta-cta-icon{width:46px;height:46px;flex-shrink:0;border-radius:12px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-size:1.4rem}
+.insta-cta-title{font-family:'Fraunces',serif;color:var(--white);font-size:1.15rem;font-weight:600;margin-bottom:2px}
+.insta-cta-sub{color:rgba(255,255,255,0.9);font-size:0.8rem;font-weight:300}
+.insta-follow-btn{display:inline-flex;align-items:center;gap:7px;background:var(--white);color:#c0186a;padding:0.7rem 1.4rem;border-radius:24px;font-size:0.82rem;font-weight:700;letter-spacing:0.03em;text-decoration:none;white-space:nowrap;transition:transform 0.2s,box-shadow 0.2s}
+.insta-follow-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,0.25)}
+@media(max-width:520px){.insta-cta{flex-direction:column;align-items:flex-start}.insta-follow-btn{width:100%;justify-content:center}}
+
+/* ── FOOTER ── */
+footer{background:var(--bark);padding:2.5rem 2rem}
+.footer-inner{max-width:1060px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:2.5rem;margin-bottom:2rem}
+.f-brand{font-family:'Fraunces',serif;font-size:1.25rem;color:var(--white);margin-bottom:0.4rem}
+.f-brand b{color:var(--gold)}
+.f-tagline{font-size:0.8rem;color:rgba(255,255,255,0.4);font-weight:300;line-height:1.6;max-width:220px;margin-bottom:0.85rem}
+.f-contact{font-size:0.78rem;color:rgba(255,255,255,0.5);display:flex;flex-direction:column;gap:3px}
+.f-contact a{color:rgba(255,255,255,0.5);text-decoration:none}
+.f-social{display:flex;gap:0.6rem;margin-top:0.9rem}
+.f-social a{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;font-size:0.95rem;text-decoration:none;transition:background 0.2s,transform 0.2s}
+.f-social a:hover{background:var(--amber);transform:translateY(-2px)}
+.f-col-title{font-size:0.67rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:0.75rem}
+.f-links{list-style:none;display:flex;flex-direction:column;gap:0.35rem}
+.f-links a{color:rgba(255,255,255,0.45);font-size:0.8rem;font-weight:300;text-decoration:none;transition:color 0.2s}
+.f-links a:hover{color:var(--white)}
+.footer-bottom{max-width:1060px;margin:0 auto;border-top:1px solid rgba(255,255,255,0.08);padding-top:1.25rem;display:flex;justify-content:space-between;align-items:center;font-size:0.73rem;color:rgba(255,255,255,0.25);flex-wrap:wrap;gap:0.5rem}
+
+/* ── RESPONSIVE ── */
+@media(max-width:860px){
+  .nav-links,.nav-wa{display:none}
+  .hamburger{display:flex}
+  .section{padding:2.5rem 1.25rem}
+  .hero{padding:3.5rem 1.25rem 2.5rem}
+  .about-inner,.contact-grid,.inquiry-wrap{grid-template-columns:1fr}
+  .about-stats{grid-template-columns:1fr 1fr}
+  .as-card:nth-child(2),.as-card:nth-child(4){margin-top:0}
+  .footer-inner{grid-template-columns:1fr}
+  .footer-bottom{flex-direction:column;text-align:center}
+  .tnc-tab{padding:0.55rem 0.85rem;font-size:0.75rem}
+  .form-row{grid-template-columns:1fr}
+  .bk-modal{max-height:95vh}
+}
+
+/* ── BOOKING MODAL ── */
+.bk-overlay{position:fixed;inset:0;background:rgba(10,20,10,0.75);z-index:400;display:none;align-items:center;justify-content:center;padding:1rem;backdrop-filter:blur(4px)}
+.bk-overlay.open{display:flex}
+.bk-modal{background:#fff;border-radius:14px;width:100%;max-width:480px;max-height:92vh;overflow-y:auto;box-shadow:0 30px 80px rgba(0,0,0,0.3);position:relative;animation:bkSlideUp 0.35s cubic-bezier(0.34,1.4,0.64,1) both}
+@keyframes bkSlideUp{from{opacity:0;transform:translateY(40px) scale(0.95)}to{opacity:1;transform:translateY(0) scale(1)}}
+.bk-close{position:absolute;top:1rem;right:1rem;background:#F0F0EE;border:none;width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:0.9rem;display:flex;align-items:center;justify-content:center;color:#666;z-index:1;transition:background 0.2s}
+.bk-close:hover{background:#E0E0DC}
+/* Progress bar */
+.bk-progress{display:flex;gap:0;border-bottom:1px solid #EEE;padding:0}
+.bk-step-tab{flex:1;padding:0.85rem 0;text-align:center;font-size:0.72rem;font-weight:700;color:#AAA;letter-spacing:0.06em;text-transform:uppercase;border-bottom:3px solid transparent;transition:all 0.2s}
+.bk-step-tab.active{color:#C07A28;border-bottom-color:#C07A28}
+.bk-step-tab.done{color:#4E7249;border-bottom-color:#4E7249}
+/* Pages */
+.bk-page{display:none;padding:1.5rem}
+.bk-page.active{display:block}
+/* Trek info card - Page 1 */
+.bk-trek-card{background:linear-gradient(135deg,#1B2F1A,#2D4829);border-radius:10px;padding:1.1rem 1.25rem;margin-bottom:1.2rem}
+.bk-trek-name{font-family:'Fraunces',serif;font-size:1.3rem;color:#fff;font-weight:600;margin-bottom:0.5rem}
+.bk-trek-rows{display:flex;flex-direction:column;gap:4px}
+.bk-trek-row{display:flex;align-items:center;gap:7px;font-size:0.8rem;color:rgba(255,255,255,0.75)}
+.bk-amount-badge{background:#DFA53A;color:#1B2F1A;display:inline-flex;align-items:center;gap:6px;padding:0.5rem 1rem;border-radius:6px;font-weight:700;font-size:0.9rem;margin-top:0.85rem}
+/* Contact info strip */
+.bk-contact-strip{background:#F6F1E7;border-radius:8px;padding:0.85rem 1rem;margin-bottom:1.2rem;display:flex;gap:1.5rem;flex-wrap:wrap}
+.bk-ci{display:flex;align-items:center;gap:6px;font-size:0.78rem;color:#4A3728}
+.bk-ci strong{color:#1B2F1A}
+/* T&C tab on page 1 */
+.bk-tnc-box{background:#FFFDF8;border:1px solid #EDE3CC;border-radius:8px;padding:0.85rem 1rem;margin-bottom:1rem;max-height:120px;overflow-y:auto;font-size:0.75rem;color:#5A6B52;line-height:1.6}
+.bk-tnc-box p{margin-bottom:0.4rem}
+.bk-check-row{display:flex;align-items:flex-start;gap:8px;padding:0.75rem 1rem;background:#EAF3E4;border-radius:8px;margin-bottom:1rem;cursor:pointer}
+.bk-check-row input[type=checkbox]{margin-top:2px;width:15px;height:15px;accent-color:#4E7249;flex-shrink:0;cursor:pointer}
+.bk-check-label{font-size:0.78rem;color:#2D4829;line-height:1.5;cursor:pointer}
+/* Form fields - Page 2 */
+.bk-amount-display{background:linear-gradient(135deg,#FFF9F0,#FFF3E0);border:1px solid #F5D99A;border-radius:8px;padding:0.85rem 1rem;margin-bottom:1rem;display:flex;justify-content:space-between;align-items:center}
+.bk-amount-label{font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#7A6347}
+.bk-amount-value{font-family:'Fraunces',serif;font-size:1.6rem;color:#C07A28;font-weight:600}
+.bk-field{margin-bottom:0.9rem}
+.bk-label{display:block;font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#7A6347;margin-bottom:4px}
+.bk-input,.bk-select,.bk-textarea{width:100%;padding:0.7rem 0.85rem;border:1px solid #EDE3CC;border-radius:6px;font-family:'Nunito',sans-serif;font-size:0.88rem;color:#1B2F1A;background:#FDFAF4;transition:border-color 0.2s;outline:none}
+.bk-input:focus,.bk-select:focus,.bk-textarea:focus{border-color:#4E7249;background:#fff}
+.bk-phone-row{display:flex;gap:0;border:1px solid #EDE3CC;border-radius:6px;overflow:hidden;background:#FDFAF4;transition:border-color 0.2s}
+.bk-phone-row:focus-within{border-color:#4E7249}
+.bk-phone-prefix{padding:0.7rem 0.75rem;background:#EDE3CC;font-size:0.85rem;font-weight:700;color:#4A3728;white-space:nowrap;display:flex;align-items:center;gap:4px;border-right:1px solid #DDD}
+.bk-phone-input{flex:1;padding:0.7rem 0.85rem;border:none;font-family:'Nunito',sans-serif;font-size:0.88rem;color:#1B2F1A;background:transparent;outline:none}
+.bk-disclaimer-box{background:#FFF9F0;border:1px solid #F5D99A;border-radius:8px;padding:0.85rem 1rem;max-height:100px;overflow-y:auto;font-size:0.73rem;color:#7A6347;line-height:1.6;margin-bottom:0.75rem}
+.bk-disclaimer-check{display:flex;align-items:flex-start;gap:8px;padding:0.75rem 1rem;background:#FFF3E0;border-radius:8px;margin-bottom:1rem;cursor:pointer;border:1px solid #F5D99A}
+.bk-disclaimer-check input{margin-top:2px;width:15px;height:15px;accent-color:#C07A28;flex-shrink:0;cursor:pointer}
+.bk-disclaimer-label{font-size:0.76rem;color:#4A3728;line-height:1.5;cursor:pointer}
+/* Page 3 - Payment */
+.bk-payment-header{text-align:center;padding:0.5rem 0 1rem}
+.bk-payment-icon{font-size:2.5rem;margin-bottom:0.5rem}
+.bk-payment-title{font-family:'Fraunces',serif;font-size:1.2rem;color:#1B2F1A;margin-bottom:0.25rem}
+.bk-payment-sub{font-size:0.8rem;color:#7A6347}
+.bk-order-summary{background:#F6F1E7;border-radius:8px;padding:1rem;margin-bottom:1.25rem}
+.bk-os-row{display:flex;justify-content:space-between;font-size:0.82rem;padding:4px 0;color:#5A6B52}
+.bk-os-total{font-weight:700;color:#1B2F1A;font-size:1rem;padding-top:8px;border-top:1px solid #EDE3CC;margin-top:6px}
+.bk-payment-methods{display:flex;flex-direction:column;gap:0.6rem;margin-bottom:1.25rem}
+.bk-pay-btn{display:flex;align-items:center;gap:12px;padding:0.9rem 1.1rem;border:1.5px solid #EDE3CC;border-radius:8px;background:#fff;cursor:pointer;font-family:'Nunito',sans-serif;font-size:0.88rem;font-weight:600;color:#1B2F1A;transition:all 0.2s;width:100%;text-align:left}
+.bk-pay-btn:hover{border-color:#C07A28;background:#FFFDF8}
+.bk-pay-btn.selected{border-color:#C07A28;background:#FFF9F0}
+.bk-pay-icon{font-size:1.3rem;width:28px;text-align:center;flex-shrink:0}
+.bk-pay-label{flex:1}
+.bk-pay-label small{display:block;font-size:0.7rem;color:#7A6347;font-weight:400}
+.bk-razorpay-btn{width:100%;padding:1rem;background:#072654;color:#fff;border:none;border-radius:8px;font-family:'Nunito',sans-serif;font-size:0.92rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background 0.2s;letter-spacing:0.03em}
+.bk-razorpay-btn:hover{background:#0A3A7A}
+.bk-secure-note{text-align:center;font-size:0.7rem;color:#AAA;margin-top:0.75rem;display:flex;align-items:center;justify-content:center;gap:5px}
+/* Nav buttons */
+.bk-nav{display:flex;justify-content:space-between;align-items:center;gap:0.75rem;margin-top:0.5rem}
+.bk-btn-back{padding:0.7rem 1.2rem;border:1px solid #EDE3CC;border-radius:6px;background:none;font-family:'Nunito',sans-serif;font-size:0.82rem;cursor:pointer;color:#7A6347;transition:background 0.2s}
+.bk-btn-back:hover{background:#F6F1E7}
+.bk-btn-next{flex:1;padding:0.85rem;border:none;border-radius:6px;background:#C07A28;color:#fff;font-family:'Nunito',sans-serif;font-size:0.88rem;font-weight:700;cursor:pointer;transition:background 0.2s;letter-spacing:0.03em}
+.bk-btn-next:hover{background:#DFA53A;color:#1B2F1A}
+/* Success */
+.bk-success{display:none;text-align:center;padding:2.5rem 1.5rem}
+.bk-success-icon{font-size:3rem;margin-bottom:1rem}
+.bk-success-title{font-family:'Fraunces',serif;font-size:1.5rem;color:#1B2F1A;margin-bottom:0.5rem}
+.bk-success-desc{font-size:0.85rem;color:#5A6B52;line-height:1.7}
+.bk-success-ref{background:#EAF3E4;border-radius:6px;padding:0.5rem 1rem;font-size:0.82rem;font-weight:700;color:#2D4829;display:inline-block;margin:0.85rem 0}
+
+/* ── LOGO ── */
+.brand{display:flex;align-items:center;gap:0.6rem}
+.brand img{width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);flex-shrink:0}
+.f-brand{display:flex;align-items:center;gap:0.6rem}
+.f-brand img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}
+.hero-logo{width:110px;height:110px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);margin-bottom:1rem;box-shadow:0 6px 24px rgba(0,0,0,0.35);position:relative}
+.nav-links li a{padding:0 0.6rem}
+@media(max-width:1100px){.nav-links li a{padding:0 0.45rem;font-size:0.72rem}}
+
+/* ── ACHIEVEMENTS ── */
+.ach-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.5rem 0}
+.tier-card{background:#fff;border-radius:10px;padding:1.25rem 1rem;text-align:center;border-top:5px solid var(--tc);box-shadow:0 2px 14px rgba(27,47,26,0.1)}
+.tier-icon{font-size:2.1rem;line-height:1}
+.tier-name{font-family:'Fraunces',serif;font-size:1.2rem;color:var(--forest);margin-top:0.4rem;letter-spacing:0.02em}
+.tier-req{display:inline-block;margin:0.4rem 0 0.7rem;padding:0.15rem 0.7rem;border-radius:20px;background:var(--tc);color:#1B2F1A;font-size:0.72rem;font-weight:700;letter-spacing:0.06em}
+.tier-kids{display:flex;flex-wrap:wrap;gap:0.4rem;justify-content:center;min-height:2rem}
+.tier-kids span{background:var(--cream);border:1px solid var(--parch);border-radius:20px;padding:0.25rem 0.7rem;font-size:0.8rem;font-weight:700;color:var(--forest)}
+.tier-kids span small{color:var(--stone);font-weight:600;margin-left:3px}
+.tier-empty{font-size:0.8rem;color:var(--sub);font-style:italic}
+.ach-stats{display:flex;gap:0.75rem;margin-bottom:1.25rem}
+.ach-stat{flex:1;background:var(--forest);border-radius:8px;padding:0.8rem;text-align:center}
+.ach-stat b{display:block;font-family:'Fraunces',serif;font-size:1.7rem;color:var(--gold);font-weight:400;line-height:1.1}
+.ach-stat span{font-size:0.68rem;letter-spacing:0.12em;font-weight:700;color:var(--mist)}
+.ach-search{width:100%;padding:0.8rem 1rem;border:1.5px solid var(--parch);border-radius:8px;font:inherit;background:#fff;color:var(--text);margin-bottom:0.75rem}
+.ach-note{font-size:0.78rem;color:var(--sub);margin-bottom:0.75rem}
+.lb{list-style:none;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 14px rgba(27,47,26,0.1)}
+.lb-row{display:flex;align-items:center;gap:0.75rem;padding:0.65rem 1rem;border-bottom:1px solid var(--parch)}
+.lb-row:last-child{border:0}
+.lb-rk{width:28px;text-align:center;font-family:'Fraunces',serif;font-size:1.05rem;color:var(--stone)}
+.lb-nm{flex:0 0 34%;font-weight:700;color:var(--forest);min-width:0;overflow-wrap:anywhere}
+.lb-nm small{display:block;font-size:0.68rem;font-weight:600;color:var(--sub);margin-top:1px}
+.lb-bar{flex:1;height:8px;background:var(--parch);border-radius:99px;overflow:hidden}
+.lb-bar i{display:block;height:100%;background:var(--fern);border-radius:99px}
+.lb-badge{font-size:0.66rem;font-weight:800;letter-spacing:0.06em;padding:0.2rem 0.6rem;border-radius:20px;white-space:nowrap;color:#1B2F1A;background:var(--tc)}
+.lb-km{width:58px;text-align:right;font-family:'Fraunces',serif;font-size:1.15rem;color:var(--forest)}
+.lb-km small{font-family:'Nunito',sans-serif;font-size:0.65rem;color:var(--stone);margin-left:2px;font-weight:700}
+.lb-row.t-silver{background:linear-gradient(90deg,rgba(192,199,206,0.3),transparent)}
+.lb-row.t-gold{background:linear-gradient(90deg,rgba(223,165,58,0.3),transparent)}
+.lb-row.t-diamond{background:linear-gradient(90deg,rgba(93,183,222,0.3),transparent)}
+.lb-row.t-silver .lb-bar i{background:#9AA3AC}.lb-row.t-gold .lb-bar i{background:var(--gold)}.lb-row.t-diamond .lb-bar i{background:#5DB7DE}
+#lbNone{display:none;text-align:center;padding:1.5rem;color:var(--sub)}
+@media(max-width:860px){.ach-tiers{grid-template-columns:1fr}.lb-bar{display:none}.lb-nm{flex:1}}
+
+/* ── INSTAGRAM REELS ── */
+.reel-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;margin-bottom:2rem;align-items:start}
+.reel-card{background:#fff;border-radius:10px;padding:0.85rem;box-shadow:0 2px 14px rgba(27,47,26,0.1);min-width:0}
+.reel-title{font-family:'Fraunces',serif;font-size:1.05rem;color:var(--forest);margin-bottom:0.6rem;display:flex;align-items:center;gap:6px}
+.reel-card .instagram-media{margin:0 auto!important;min-width:0!important;max-width:100%!important;width:100%!important}
+.reel-cap{margin-top:0.75rem;font-size:0.8rem;line-height:1.55;color:var(--sub)}
+.reel-cap p{margin-bottom:0.5rem}
+.reel-tags{color:var(--sage);font-weight:700}
+.reel-link{display:inline-block;margin-top:0.6rem;font-size:0.78rem;font-weight:700;color:var(--amber);text-decoration:none}
+@media(max-width:860px){.reel-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header><img class="logo" src="data:image/jpeg;base64,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" alt="Tiny Trekkers logo" width="96" height="96"><div class="brand">TINY TREKKERS</div><h1>Kids Trek <span>Leaderboard</span></h1><p>Total distance covered, highest to lowest</p></header>
-<main>
-<div class="stats"><div class="stat"><b>85</b><span>KIDS</span></div><div class="stat"><b>540</b><span>TOTAL KM</span></div><div class="stat"><b>29</b><span>TOP KM</span></div></div>
-<input id="q" type="search" placeholder="Search a name…" aria-label="Search a name">
-<p class="tag">Highlighted rows = Silver Medal (25 KM+). Kids with equal KM share the same rank.</p>
-<ul id="list">
-<li class="row silver" data-n="tvisha mutha"><span class="rk">1</span><span class="nm">Tvisha Mutha</span><span class="bar"><i style="width:100.0%"></i></span><span class="km">29<small>KM</small></span></li>
-<li class="row silver" data-n="yashika"><span class="rk">1</span><span class="nm">Yashika</span><span class="bar"><i style="width:100.0%"></i></span><span class="km">29<small>KM</small></span></li>
-<li class="row silver" data-n="idant agrawal"><span class="rk">3</span><span class="nm">Idant Agrawal</span><span class="bar"><i style="width:93.1%"></i></span><span class="km">27<small>KM</small></span></li>
-<li class="row" data-n="prashi patel"><span class="rk">4</span><span class="nm">Prashi Patel</span><span class="bar"><i style="width:62.1%"></i></span><span class="km">18<small>KM</small></span></li>
-<li class="row" data-n="vaani patel"><span class="rk">4</span><span class="nm">Vaani Patel</span><span class="bar"><i style="width:62.1%"></i></span><span class="km">18<small>KM</small></span></li>
-<li class="row" data-n="jaanvi maurya"><span class="rk">4</span><span class="nm">Jaanvi Maurya</span><span class="bar"><i style="width:62.1%"></i></span><span class="km">18<small>KM</small></span></li>
-<li class="row" data-n="atharva sharma"><span class="rk">7</span><span class="nm">Atharva Sharma</span><span class="bar"><i style="width:58.6%"></i></span><span class="km">17<small>KM</small></span></li>
-<li class="row" data-n="norah pathan"><span class="rk">7</span><span class="nm">Norah Pathan</span><span class="bar"><i style="width:58.6%"></i></span><span class="km">17<small>KM</small></span></li>
-<li class="row" data-n="pratyusha panigrahi"><span class="rk">9</span><span class="nm">Pratyusha Panigrahi</span><span class="bar"><i style="width:55.2%"></i></span><span class="km">16<small>KM</small></span></li>
-<li class="row" data-n="shanaya agrawal"><span class="rk">9</span><span class="nm">Shanaya Agrawal</span><span class="bar"><i style="width:55.2%"></i></span><span class="km">16<small>KM</small></span></li>
-<li class="row" data-n="vivaan nahar"><span class="rk">9</span><span class="nm">Vivaan Nahar</span><span class="bar"><i style="width:55.2%"></i></span><span class="km">16<small>KM</small></span></li>
-<li class="row" data-n="kartikey dekhane"><span class="rk">12</span><span class="nm">Kartikey Dekhane</span><span class="bar"><i style="width:48.3%"></i></span><span class="km">14<small>KM</small></span></li>
-<li class="row" data-n="jinanash mutha"><span class="rk">13</span><span class="nm">Jinanash Mutha</span><span class="bar"><i style="width:44.8%"></i></span><span class="km">13<small>KM</small></span></li>
-<li class="row" data-n="anvi bhosale"><span class="rk">14</span><span class="nm">Anvi Bhosale</span><span class="bar"><i style="width:37.9%"></i></span><span class="km">11<small>KM</small></span></li>
-<li class="row" data-n="chinmay deshmukh"><span class="rk">14</span><span class="nm">Chinmay Deshmukh</span><span class="bar"><i style="width:37.9%"></i></span><span class="km">11<small>KM</small></span></li>
-<li class="row" data-n="jenicka desai"><span class="rk">14</span><span class="nm">Jenicka Desai</span><span class="bar"><i style="width:37.9%"></i></span><span class="km">11<small>KM</small></span></li>
-<li class="row" data-n="karnika sangar"><span class="rk">14</span><span class="nm">Karnika Sangar</span><span class="bar"><i style="width:37.9%"></i></span><span class="km">11<small>KM</small></span></li>
-<li class="row" data-n="nishad sangar"><span class="rk">14</span><span class="nm">Nishad Sangar</span><span class="bar"><i style="width:37.9%"></i></span><span class="km">11<small>KM</small></span></li>
-<li class="row" data-n="ovi jadhav"><span class="rk">14</span><span class="nm">Ovi Jadhav</span><span class="bar"><i style="width:37.9%"></i></span><span class="km">11<small>KM</small></span></li>
-<li class="row" data-n="nandini sule"><span class="rk">14</span><span class="nm">Nandini Sule</span><span class="bar"><i style="width:37.9%"></i></span><span class="km">11<small>KM</small></span></li>
-<li class="row" data-n="ganish lalit mahajan"><span class="rk">21</span><span class="nm">Ganish Lalit Mahajan</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="kanika bhalekar"><span class="rk">21</span><span class="nm">Kanika Bhalekar</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="k geethanvitha"><span class="rk">21</span><span class="nm">K Geethanvitha</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="kavyanjali shukla"><span class="rk">21</span><span class="nm">Kavyanjali Shukla</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="avani bhalekar"><span class="rk">21</span><span class="nm">Avani Bhalekar</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="shreshth pujari"><span class="rk">21</span><span class="nm">Shreshth Pujari</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="gauransh pujari"><span class="rk">21</span><span class="nm">Gauransh Pujari</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="pranati bohra"><span class="rk">21</span><span class="nm">Pranati Bohra</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="mihir vaibhav gatne"><span class="rk">21</span><span class="nm">Mihir Vaibhav Gatne</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="kriyanshi"><span class="rk">21</span><span class="nm">Kriyanshi</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="nia j"><span class="rk">21</span><span class="nm">Nia J</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="krisha g"><span class="rk">21</span><span class="nm">Krisha G</span><span class="bar"><i style="width:20.7%"></i></span><span class="km">6<small>KM</small></span></li>
-<li class="row" data-n="aatish nair"><span class="rk">33</span><span class="nm">Aatish Nair</span><span class="bar"><i style="width:17.2%"></i></span><span class="km">5<small>KM</small></span></li>
-<li class="row" data-n="nirvaan shah"><span class="rk">33</span><span class="nm">Nirvaan Shah</span><span class="bar"><i style="width:17.2%"></i></span><span class="km">5<small>KM</small></span></li>
-<li class="row" data-n="prajwal prasad panse"><span class="rk">33</span><span class="nm">Prajwal Prasad Panse</span><span class="bar"><i style="width:17.2%"></i></span><span class="km">5<small>KM</small></span></li>
-<li class="row" data-n="pranjal prasad panse"><span class="rk">33</span><span class="nm">Pranjal Prasad Panse</span><span class="bar"><i style="width:17.2%"></i></span><span class="km">5<small>KM</small></span></li>
-<li class="row" data-n="rachna nair"><span class="rk">33</span><span class="nm">Rachna Nair</span><span class="bar"><i style="width:17.2%"></i></span><span class="km">5<small>KM</small></span></li>
-<li class="row" data-n="advay lembhe"><span class="rk">38</span><span class="nm">Advay Lembhe</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="advik amol lunavat"><span class="rk">38</span><span class="nm">Advik Amol Lunavat</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="aishwarya modi"><span class="rk">38</span><span class="nm">Aishwarya Modi</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="akshat rathi"><span class="rk">38</span><span class="nm">Akshat Rathi</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="anay modi"><span class="rk">38</span><span class="nm">Anay Modi</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="avneesh mangesh bhujbal"><span class="rk">38</span><span class="nm">Avneesh Mangesh Bhujbal</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="ayaansh ponnappa"><span class="rk">38</span><span class="nm">Ayaansh Ponnappa</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="hridansh gugale"><span class="rk">38</span><span class="nm">Hridansh Gugale</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="hridya gugale"><span class="rk">38</span><span class="nm">Hridya Gugale</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="jivya sejpal"><span class="rk">38</span><span class="nm">Jivya Sejpal</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="kavya (sinhagad, guardian kajal)"><span class="rk">38</span><span class="nm">Kavya (Sinhagad, guardian Kajal)</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="kiaan agarwal"><span class="rk">38</span><span class="nm">Kiaan Agarwal</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="paarth mutha"><span class="rk">38</span><span class="nm">Paarth Mutha</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="rian shah"><span class="rk">38</span><span class="nm">Rian Shah</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="riyansh salvi"><span class="rk">38</span><span class="nm">Riyansh Salvi</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="saanjh agarwal"><span class="rk">38</span><span class="nm">Saanjh Agarwal</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="shanaya kshirsagar"><span class="rk">38</span><span class="nm">Shanaya Kshirsagar</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="sharanaya srivastava"><span class="rk">38</span><span class="nm">Sharanaya Srivastava</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="shlok sumit katariya"><span class="rk">38</span><span class="nm">Shlok Sumit Katariya</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="shriyansh kshirsagar"><span class="rk">38</span><span class="nm">Shriyansh Kshirsagar</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="viva vaid"><span class="rk">38</span><span class="nm">Viva Vaid</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="yuven shah"><span class="rk">38</span><span class="nm">Yuven Shah</span><span class="bar"><i style="width:10.3%"></i></span><span class="km">3<small>KM</small></span></li>
-<li class="row" data-n="aaradhya gangadhari"><span class="rk">60</span><span class="nm">Aaradhya Gangadhari</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="aarika pagariya"><span class="rk">60</span><span class="nm">Aarika Pagariya</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="aman maurya"><span class="rk">60</span><span class="nm">Aman Maurya</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="amara dopale"><span class="rk">60</span><span class="nm">Amara Dopale</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="arham"><span class="rk">60</span><span class="nm">Arham</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="asvi srivastava"><span class="rk">60</span><span class="nm">Asvi Srivastava</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="bidisha panigrahi"><span class="rk">60</span><span class="nm">Bidisha Panigrahi</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="dhrumi jain"><span class="rk">60</span><span class="nm">Dhrumi Jain</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="dhyaan thakshe"><span class="rk">60</span><span class="nm">Dhyaan Thakshe</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="durva"><span class="rk">60</span><span class="nm">Durva</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="gargee"><span class="rk">60</span><span class="nm">Gargee</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="jija galande"><span class="rk">60</span><span class="nm">Jija Galande</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="josiah chowdhary"><span class="rk">60</span><span class="nm">Josiah Chowdhary</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="kavya (vetal, guardian seema)"><span class="rk">60</span><span class="nm">Kavya (Vetal, guardian Seema)</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="khushi jain"><span class="rk">60</span><span class="nm">Khushi Jain</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="lavishka barmecha"><span class="rk">60</span><span class="nm">Lavishka Barmecha</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="manasvi salunkhe"><span class="rk">60</span><span class="nm">Manasvi Salunkhe</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="nandika jain"><span class="rk">60</span><span class="nm">Nandika Jain</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="nitya pai"><span class="rk">60</span><span class="nm">Nitya Pai</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="saharsh iyer"><span class="rk">60</span><span class="nm">Saharsh Iyer</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="tarini mehendale"><span class="rk">60</span><span class="nm">Tarini Mehendale</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="tasmay popat"><span class="rk">60</span><span class="nm">Tasmay Popat</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="trisha kondekar"><span class="rk">60</span><span class="nm">Trisha Kondekar</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="trusha jain"><span class="rk">60</span><span class="nm">Trusha Jain</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="viaansh srivastava"><span class="rk">60</span><span class="nm">Viaansh Srivastava</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-<li class="row" data-n="vyom thakkar"><span class="rk">60</span><span class="nm">Vyom Thakkar</span><span class="bar"><i style="width:6.9%"></i></span><span class="km">2<small>KM</small></span></li>
-</ul>
-<div id="none">No kid found with that name.</div>
-</main>
+
+<!-- ── WHATSAPP FLOAT ── -->
+<div class="wa-float">
+  <div class="wa-float-label">Book on WhatsApp</div>
+  <a class="wa-float-btn" href="https://wa.me/919096354524?text=Hi%20Tiny%20Trekkers!%20I%20want%20to%20book%20a%20trek." target="_blank" title="Book on WhatsApp">💬</a>
+</div>
+
+<!-- ── CALLBACK FLOAT BUTTON ── -->
+<div class="cb-float">
+  <div class="cb-float-label">Request Callback</div>
+  <button class="cb-float-btn" onclick="openCallback()" title="Request a Callback">📞</button>
+</div>
+
+<!-- ── CALLBACK POPUP ── -->
+<div class="cb-popup-overlay" id="cb-overlay" onclick="closeCbOnOverlay(event)">
+  <div class="cb-popup">
+    <button class="cb-close" onclick="closeCallback()">✕</button>
+
+    <!-- Form state -->
+    <div id="cb-form-state">
+      <div class="cb-popup-head">
+        <div class="cb-popup-icon">📞</div>
+        <div>
+          <div class="cb-popup-title">Request a Callback</div>
+          <div class="cb-popup-sub">We'll call you back within 2 hours</div>
+        </div>
+      </div>
+
+      <div class="cb-form-group">
+        <label class="cb-label">Your Name *</label>
+        <input type="text" class="cb-input" id="cb-name" placeholder="Full name">
+      </div>
+      <div class="cb-form-group">
+        <label class="cb-label">Phone Number *</label>
+        <input type="tel" class="cb-input" id="cb-phone" placeholder="+91 XXXXX XXXXX">
+      </div>
+      <div class="cb-form-group">
+        <label class="cb-label">Trek You're Interested In *</label>
+        <select class="cb-select" id="cb-trek">
+          <option value="">Select a trek…</option>
+          <option>Vasota Trek (Camping + Boat Ride + Jungle)</option>
+          <option>Lohgad Trek</option>
+          <option>Kalsubai Trek</option>
+          <option>Harishchandra Gad (Night Stay)</option>
+          <option>Sinhgad Trek</option>
+          <option>Torana Fort Trek</option>
+          <option>Tikona Fort Trek</option>
+          <option>Vetal Tekadi Trek</option>
+          <option>Malhargad Trek</option>
+          <option>Other / Not sure yet</option>
+        </select>
+      </div>
+      <div class="cb-form-group">
+        <label class="cb-label">Preferred Date (Optional)</label>
+        <input type="date" class="cb-input" id="cb-date">
+      </div>
+      <div class="cb-form-group">
+        <label class="cb-label">Group Size (Optional)</label>
+        <input type="number" class="cb-input" id="cb-group" placeholder="How many people?" min="1">
+      </div>
+      <button class="cb-submit" onclick="submitCallback()">📞 Request Callback →</button>
+    </div>
+
+    <!-- Success state -->
+    <div class="cb-success" id="cb-success-state">
+      <div class="cb-success-icon">🎉</div>
+      <div class="cb-success-title">Callback Requested!</div>
+      <div class="cb-success-desc">We've received your details and will call you back within 2 hours.<br><br>You can also reach us instantly on WhatsApp at <strong>+91 9096354524</strong></div>
+      <a href="https://wa.me/919096354524" target="_blank" style="display:inline-flex;align-items:center;gap:6px;margin-top:1rem;background:#25D366;color:#fff;padding:0.6rem 1.2rem;border-radius:5px;font-size:0.82rem;font-weight:700;text-decoration:none">💬 WhatsApp Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- ── NAV ── -->
+<nav id="navbar">
+  <div class="brand"><img src="data:image/jpeg;base64,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" alt="Tiny Trekkers logo"><span>Tiny<b>Trekkers</b></span></div>
+  <ul class="nav-links">
+    <li><a href="#events">Events</a></li>
+    <li><a href="#on-demand">On Demand</a></li>
+    <li><a href="#places">Trek Places</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#inquiry">Inquiry</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#tnc">T&amp;C</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a class="nav-wa" href="https://wa.me/919096354524?text=Hi%20Tiny%20Trekkers!%20I%20want%20to%20book%20a%20trek." target="_blank">💬 WhatsApp Us</a>
+  <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- ── MOBILE MENU ── -->
+<div class="mob-menu" id="mobMenu">
+  <a href="#events" onclick="toggleMenu()">Upcoming Events</a>
+  <a href="#on-demand" onclick="toggleMenu()">Schedule on Demand</a>
+  <a href="#places" onclick="toggleMenu()">Trek Places</a>
+  <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+  <a href="#achievements" onclick="toggleMenu()">Kids Achievements</a>
+  <a href="#inquiry" onclick="toggleMenu()">Inquiry</a>
+  <a href="#about" onclick="toggleMenu()">About Us</a>
+  <a href="#support" onclick="toggleMenu()">Support</a>
+  <a href="#tnc" onclick="toggleMenu()">Terms &amp; Conditions</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+  <a href="https://wa.me/919096354524" target="_blank" style="color:#25D366">💬 Book on WhatsApp</a>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-dots"></div>
+  <img class="hero-logo" src="data:image/jpeg;base64,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" alt="Tiny Trekkers – Where every step leads to wonders">
+  <div class="hero-badge">📍 Pune · Sahyadri Mountain Treks</div>
+  <h1 class="hero-title">Every Trail Has a<br><em>Story to Tell</em></h1>
+  <p class="hero-sub">Expert-guided treks across the Sahyadri ranges. Safe, affordable, and unforgettable — for beginners to seasoned trekkers.</p>
+  <div class="hero-btns">
+    <a href="#events" class="btn-hero btn-forest">View Upcoming Events →</a>
+    <a href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20book%20a%20trek." target="_blank" class="btn-hero btn-ghost">💬 Book on WhatsApp</a>
+  </div>
+  <div class="hero-chips">
+    <div class="chip"><div class="chip-num">500+</div><div class="chip-label">Trekkers</div></div>
+    <div class="chip"><div class="chip-num">18+</div><div class="chip-label">Trek Routes</div></div>
+    <div class="chip"><div class="chip-num">4.9★</div><div class="chip-label">Rating</div></div>
+    <div class="chip"><div class="chip-num">0</div><div class="chip-label">Safety Issues</div></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+  UPCOMING EVENTS
+  FIX: Section now properly closed with </div></div></section>
+  The missing closing tags were causing the giant space
+════════════════════════════════════════════ -->
+<section class="section section-alt" id="events">
+  <div class="inner">
+    <div class="sec-label">Upcoming Treks</div>
+    <h2 class="sec-title">Scheduled <em>Events</em></h2>
+    <p class="sec-sub">Book your spot before it fills up. Message us on WhatsApp to confirm your booking.</p>
+
+    <div class="events-grid">
+
+      <!-- CARD 1: Malhargad Trek -->
+      <div class="event-card">
+        <div class="event-header easy to moderate"></div>
+        <div class="event-body">
+          <div class="event-diff d-easy"><div class="diff-dot" style="background:#4E7249"></div>Easy to Moderate</div>
+          <div class="event-name">Malhargad Trek</div>
+          <div class="event-meta">
+            <div class="em-row"><span class="em-icon">📍</span><span>Pune, Maharashtra</span></div>
+            <div class="em-row"><span class="em-icon">📅</span><span class="em-val">Sunday, 18 Oct 2026</span></div>
+            <div class="em-row"><span class="em-icon">🕐</span><span>Half Day · Starts 5:00 AM</span></div>
+            <div class="em-row"><span class="em-icon">👥</span><span>Max 30 people</span></div>
+          </div>
+          <div style="background:#F6F1E7;border-radius:5px;padding:0.6rem 0.85rem;margin-bottom:0.85rem;border-left:3px solid var(--amber)">
+            <div style="font-size:0.67rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:0.4rem">✨ Special Activities</div>
+            <div style="font-size:0.78rem;color:var(--forest);display:flex;align-items:center;gap:6px"><span>🍈</span> Sitaphal (custard apple) picking</div>
+          </div>
+          <div class="event-footer">
+            <div>
+              <div class="event-price">₹900 <span>/ person</span></div>
+              <div class="slots-left">⚡ 24 slots left</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:5px">
+              <a class="book-wa advance" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20book%20Malhargad%20Trek%20with%20Sitaphal%20picking%20on%2018%20Oct.%20Booking%20amount%20%E2%82%B9900." target="_blank">💬 Book Now · ₹900</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2: Tikona Fort Trek with Family -->
+      <div class="event-card">
+        <div class="event-header"></div>
+        <div class="event-body">
+          <div class="event-diff d-moderate"><div class="diff-dot" style="background:#C07A28"></div>Moderate</div>
+          <div class="event-name">Tikona Fort Trek with Family</div>
+          <div class="event-meta">
+            <div class="em-row"><span class="em-icon">📍</span><span>Pune, Maharashtra</span></div>
+            <div class="em-row"><span class="em-icon">📅</span><span class="em-val">Sunday, 22 Nov 2026</span></div>
+            <div class="em-row"><span class="em-icon">🕐</span><span>Half Day · Starts 5:00 AM</span></div>
+            <div class="em-row"><span class="em-icon">👥</span><span>Max 30 people</span></div>
+          </div>
+          <div class="event-footer">
+            <div>
+              <div class="event-price">₹1100 <span>/ person</span></div>
+              <div class="slots-left">⚡ 18 slots left</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:5px">
+              <a class="book-wa advance" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20book%20Tikona%20Fort%20Trek%20with%20Family%20on%2022%20Nov.%20Booking%20amount%20%E2%82%B91100." target="_blank">💬 Book Now · ₹1100</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- END .events-grid -->
+  </div><!-- END .inner -->
+</section><!-- ✅ FIX: events section is now properly closed here -->
+
+
+<!-- ── ON DEMAND ── -->
+<!-- ✅ FIX: This is now a properly separate section, not nested inside events -->
+<section class="section" id="on-demand">
+  <div class="inner">
+    <div class="sec-label">Schedule on Your Time</div>
+    <h2 class="sec-title">Trek <em>On Demand</em></h2>
+    <p class="sec-sub">Have a group and a preferred date? We'll organise a private trek for you. Pick a destination and WhatsApp us to schedule.</p>
+    <div class="demand-grid">
+
+      <div class="demand-card">
+        <div class="dc-icon">🛶</div>
+        <div class="dc-name">Vasota Trek</div>
+        <div class="dc-region">📍 Satara, Maharashtra</div>
+        <div class="dc-tags">
+          <span class="dc-tag">⛺ Camping</span>
+          <span class="dc-tag">🚤 Boat Ride</span>
+          <span class="dc-tag">🌿 Jungle</span>
+        </div>
+        <div class="dc-info">A thrilling combo — boat ride on Shivsagar Lake, dense jungle trek, and overnight camping near the ancient Vasota fort.</div>
+        <a class="req-btn" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20schedule%20a%20private%20Vasota%20Trek%20with%20camping%20and%20boat%20ride." target="_blank">Request Date</a>
+      </div>
+
+      <div class="demand-card">
+        <div class="dc-icon">🏰</div>
+        <div class="dc-name">Lohgad Trek</div>
+        <div class="dc-region">📍 Lonavala, Maharashtra</div>
+        <div class="dc-tags">
+          <span class="dc-tag">🟢 Easy</span>
+          <span class="dc-tag">🏛 Historic Fort</span>
+        </div>
+        <div class="dc-info">One of the most accessible hill forts near Pune. Rocky plateau, massive ramparts, and stunning views of Visapur fort across the valley.</div>
+        <a class="req-btn" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20schedule%20a%20private%20Lohgad%20Trek." target="_blank">Request Date</a>
+      </div>
+
+      <div class="demand-card">
+        <div class="dc-icon">🌄</div>
+        <div class="dc-name">Kalsubai Trek</div>
+        <div class="dc-region">📍 Nashik, Maharashtra</div>
+        <div class="dc-tags">
+          <span class="dc-tag">🔴 Hard</span>
+          <span class="dc-tag">🏔 Highest Peak</span>
+        </div>
+        <div class="dc-info">Summit the highest peak in Maharashtra at 5,400 ft. Iron ladders, challenging rock sections, and breathtaking 360° views from the top.</div>
+        <a class="req-btn" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20schedule%20a%20private%20Kalsubai%20Trek." target="_blank">Request Date</a>
+      </div>
+
+      <div class="demand-card">
+        <div class="dc-icon">🌙</div>
+        <div class="dc-name">Harishchandra Gad</div>
+        <div class="dc-region">📍 Ahmednagar, Maharashtra</div>
+        <div class="dc-tags">
+          <span class="dc-tag">🟡 Moderate</span>
+          <span class="dc-tag">🌙 Night Stay</span>
+        </div>
+        <div class="dc-info">Spend a night on the mountain — campfire under stars, ancient Kedareshwar cave, and the iconic Konkan Kada sunrise. An unforgettable experience.</div>
+        <a class="req-btn" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20schedule%20a%20private%20Harishchandra%20Gad%20Trek%20with%20night%20stay." target="_blank">Request Date</a>
+      </div>
+
+      <div class="demand-card">
+        <div class="dc-icon">⛩</div>
+        <div class="dc-name">Sinhgad Trek</div>
+        <div class="dc-region">📍 Pune, Maharashtra</div>
+        <div class="dc-tags">
+          <span class="dc-tag">🟢 Easy</span>
+          <span class="dc-tag">🌅 Sunrise Trek</span>
+        </div>
+        <div class="dc-info">Closest fort to Pune city, just 25 km away. Famous for its sunrise views, historic significance, and easy trail suitable for all fitness levels.</div>
+        <a class="req-btn" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20schedule%20a%20private%20Sinhgad%20Trek." target="_blank">Request Date</a>
+      </div>
+
+      <div class="demand-card">
+        <div class="dc-icon">🌿</div>
+        <div class="dc-name">Torana Fort</div>
+        <div class="dc-region">📍 Velha, Pune</div>
+        <div class="dc-tags">
+          <span class="dc-tag">🟡 Moderate</span>
+          <span class="dc-tag">🏛 Historic</span>
+        </div>
+        <div class="dc-info">The first fort captured by Chhatrapati Shivaji Maharaj. Dramatic climb, stunning views, and rich Maratha history at every step.</div>
+        <a class="req-btn" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20schedule%20a%20private%20Torana%20Fort%20Trek." target="_blank">Request Date</a>
+      </div>
+
+      <div class="demand-card">
+        <div class="dc-icon">🍃</div>
+        <div class="dc-name">Tikona Fort</div>
+        <div class="dc-region">📍 Kamshet, Pune</div>
+        <div class="dc-tags">
+          <span class="dc-tag">🟢 Easy</span>
+          <span class="dc-tag">👨‍👩‍👧 Family Friendly</span>
+        </div>
+        <div class="dc-info">Pyramid-shaped fort near Pawna Lake. Short, scenic trail perfect for beginners, families, and anyone doing their first trek from Pune.</div>
+        <a class="req-btn" href="https://wa.me/919096354524?text=Hi!%20I%20want%20to%20schedule%20a%20private%20Tikona%20Fort%20Trek." target="_blank">Request Date</a>
+      </div>
+
+    </div><!-- END .demand-grid -->
+  </div>
+</section>
+
+<!-- ── TREK PLACES ── -->
+<section class="section section-alt" id="places">
+  <div class="inner">
+    <div class="sec-label">Where We Trek</div>
+    <h2 class="sec-title">Our Trek <em>Destinations</em></h2>
+    <p class="sec-sub">We operate across the Western Ghats and Sahyadri ranges — all within a comfortable distance from Pune.</p>
+    <div class="places-grid">
+      <div class="place-item"><div class="pi-icon">🌾</div><div class="pi-body"><div class="pi-name">Vetal Tekadi Trek</div><div class="pi-loc">📍 Pune · Within city</div><div class="pi-tags"><span class="pi-tag t-easy">Easy</span><span class="pi-tag t-pop">Scheduled</span></div></div></div>
+      <div class="place-item"><div class="pi-icon">🍈</div><div class="pi-body"><div class="pi-name">Malhargad Trek</div><div class="pi-loc">📍 Malhargad · Near Pune</div><div class="pi-tags"><span class="pi-tag t-mod">Moderate</span><span class="pi-tag t-pop">Scheduled · Anjir Garden</span></div></div></div>
+      <div class="place-item"><div class="pi-icon">🛶</div><div class="pi-body"><div class="pi-name">Vasota Trek</div><div class="pi-loc">📍 Satara · 130 km from Pune</div><div class="pi-tags"><span class="pi-tag t-mod">Moderate</span><span class="pi-tag t-pop">Camping + Boat</span></div></div></div>
+      <div class="place-item"><div class="pi-icon">🏰</div><div class="pi-body"><div class="pi-name">Lohgad Trek</div><div class="pi-loc">📍 Lonavala · 65 km from Pune</div><div class="pi-tags"><span class="pi-tag t-easy">Easy</span><span class="pi-tag t-pop">Historic Fort</span></div></div></div>
+      <div class="place-item hard-place"><div class="pi-icon">🌄</div><div class="pi-body"><div class="pi-name">Kalsubai Trek</div><div class="pi-loc">📍 Nashik · 185 km from Pune</div><div class="pi-tags"><span class="pi-tag t-hard">Hard</span><span class="pi-tag t-pop">Highest Peak</span></div></div></div>
+      <div class="place-item"><div class="pi-icon">🌙</div><div class="pi-body"><div class="pi-name">Harishchandra Gad</div><div class="pi-loc">📍 Ahmednagar · 170 km from Pune</div><div class="pi-tags"><span class="pi-tag t-mod">Moderate</span><span class="pi-tag t-pop">Night Stay</span></div></div></div>
+      <div class="place-item"><div class="pi-icon">⛩</div><div class="pi-body"><div class="pi-name">Sinhgad Trek</div><div class="pi-loc">📍 Pune · 25 km from city</div><div class="pi-tags"><span class="pi-tag t-easy">Easy</span><span class="pi-tag t-pop">Nearest</span></div></div></div>
+      <div class="place-item"><div class="pi-icon">🌿</div><div class="pi-body"><div class="pi-name">Torana Fort</div><div class="pi-loc">📍 Velha, Pune · 60 km</div><div class="pi-tags"><span class="pi-tag t-mod">Moderate</span><span class="pi-tag t-pop">Historic</span></div></div></div>
+      <div class="place-item"><div class="pi-icon">🍃</div><div class="pi-body"><div class="pi-name">Tikona Fort</div><div class="pi-loc">📍 Kamshet, Pune · 60 km</div><div class="pi-tags"><span class="pi-tag t-easy">Easy</span><span class="pi-tag t-pop">Beginner Friendly</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+  GALLERY / INSTAGRAM
+════════════════════════════════════════════ -->
+<section class="section" id="gallery">
+  <div class="inner">
+    <div class="sec-label">Moments From The Trail</div>
+    <h2 class="sec-title">Trek <em>Gallery</em></h2>
+    <p class="sec-sub">Muddy boots, mountain sunrises, and happy kids — see our latest trekking moments and behind-the-scenes fun on Instagram.</p>
+    <div class="reel-grid">
+      <div class="reel-card">
+        <div class="reel-title">🎬 Devkund Waterfall Trek</div>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DeHbfNeN1Us/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/DeHbfNeN1Us/" target="_blank" rel="noopener">Watch Devkund Waterfall Trek on Instagram</a></blockquote>
+        <div class="reel-cap">
+          <p>✨🛤️12 km of walking, countless breathtaking views, and one unforgettable destination! 🧭🌿💦</p>
+          <p>It’s absolutely worth walking 12 km to witness the beauty of Devkund Waterfall. What an amazing trek! ❤️</p>
+          <p>With flowing water on one side and majestic mountains on the other, every step of the journey feels like a scene straight out of a movie. And then, hidden deep within the mountains, appears the magnificent Devkund Waterfall — giving you those magical Himalayan vibes right in Maharashtra! 🏔️✨</p>
+          <p>The sound of the waterfall, the lush green mountains, the peaceful surroundings, and the adventure of the trail make the entire journey worth it. 🌧️🌿</p>
+          <p>Sometimes, the best destinations aren’t reached by roads… they’re reached by taking the long way. ❤️</p>
+          <p>📍 Devkund Waterfall, Maharashtra<br>🥾 Trek: ~12 km<br>🌿 Adventure: 100% worth it<br>💦 Views: Absolutely unforgettable!</p>
+          <p class="reel-tags">#DevkundWaterfall #Devkund #DevkundTrek #maharashtratrekkingmemes #maharashtradiaries</p>
+        </div>
+      </div>
+      <div class="reel-card">
+        <div class="reel-title">🎬 Sinhagad Trek</div>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DZ32ZNIsLjm/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/DZ32ZNIsLjm/" target="_blank" rel="noopener">Watch Sinhagad Trek on Instagram</a></blockquote>
+        <div class="reel-cap">
+          <p>🏔️ They came as kids. They returned as little warriors✨</p>
+          <p>From early morning excitement to reaching the mighty Sinhagad Fort, our Tiny Trekkers showed courage, teamwork, resilience, and endless smiles every step of the way. 🌿✨</p>
+          <p>Watching children disconnect from screens, connect with nature, make new friends, and discover their own strength is why we do what we do.</p>
+          <p>A huge thank you to all our amazing parents for trusting us with your precious little adventurers. 🙏❣️</p>
+          <p>The trek is over, but the memories, confidence, and stories will stay with them forever.</p>
+          <p>Which childhood memory from nature do you still remember today? Tell us in the comments! 👇</p>
+          <p>✨🌿Tiny Trekkers🪷<br>“Where every step leads to wonder.”</p>
+          <p><span class="reel-tags">#TinyTrekkers #SinhagadTrek #KidsWhoExplore #OutdoorLearning #NatureKids</span></p>
+        </div>
+      </div>
+      <div class="reel-card">
+        <div class="reel-title">🎬 ARAI Trek</div>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW0n4puTH7J/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/DW0n4puTH7J/" target="_blank" rel="noopener">Watch ARAI Trek on Instagram</a></blockquote>
+        <div class="reel-cap">
+          <p>Not just a trek… a story of courage 🌿✨</p>
+          <p>Starting as young as 4.4 years old (yes, really!!!)<br>These little adventurers proved that age is just a number 🎖️</p>
+          <p>Confidence. Energy. Fearless climbs.<br>Something magical is building here 💫</p>
+          <p><span class="reel-tags">#KidsTrek #LittleAdventurers #YoungExplorers #TrekkingWithKids</span></p>
+        </div>
+      </div>
+      <div class="reel-card">
+        <div class="reel-title">🎬 Nilkantheswar Trek</div>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcIEOIDzYGg/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/DcIEOIDzYGg/" target="_blank" rel="noopener">Watch Nilkantheswar Trek on Instagram</a></blockquote>
+        <div class="reel-cap">
+          <p>⛰️ NILKANTHESWAR — WE CONQUERED THE TRAIL! 🌿🥾</p>
+          <p>Through rain, climbs and every little challenge, our Tiny Trekkers discovered courage, confidence and the joy of exploring beyond the ordinary. ✨</p>
+          <p>One trail. One adventure. Countless memories.</p>
+          <p>This is Tiny Trekkers — Where every step leads to wonder. 🌿</p>
+          <p><span class="reel-tags">#TinyTrekkers #NilkantheswarTrek #KidsTrekking #PuneKids #KidsAdventure #TrekkingWithKids #OutdoorLearning #NatureKids #ExplorePune #PuneEvents #TinyAdventurers #ChildhoodMemories</span></p>
+        </div>
+      </div>
+    </div>
+    <script async src="https://www.instagram.com/embed.js"></script>
+    <div class="insta-cta">
+      <div class="insta-cta-text">
+        <div class="insta-cta-icon">📸</div>
+        <div>
+          <div class="insta-cta-title">More on our Instagram</div>
+          <div class="insta-cta-sub">@tinytrekkers.pune — new treks, photos &amp; reels every week</div>
+        </div>
+      </div>
+      <!-- TODO: replace with your actual Instagram profile URL -->
+      <a class="insta-follow-btn" href="https://www.instagram.com/tinytrekkers.pune" target="_blank" rel="noopener" aria-label="Follow Tiny Trekkers on Instagram">
+        Follow Us →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Inquiry anchor for nav scroll -->
+<div id="inquiry" style="position:relative;top:-62px"></div>
+
+<!-- ── ABOUT US ── -->
+<!-- ── KIDS ACHIEVEMENTS ── -->
+<section class="section section-alt" id="achievements">
+  <div class="inner">
+    <div class="sec-label">Little Champions</div>
+    <h2 class="sec-title">Kids <em>Achievements</em></h2>
+    <p class="sec-sub">Every kilometre counts! Kids earn a badge as they trek more with us.</p>
+
+    <div class="ach-tiers">
+      <div class="tier-card" style="--tc:#C0C7CE"><div class="tier-icon">🥈</div><div class="tier-name">SILVER STRIDER</div><div class="tier-req">25+ KM</div><div class="tier-kids" id="tierSilver"></div></div>
+      <div class="tier-card" style="--tc:#DFA53A"><div class="tier-icon">🥇</div><div class="tier-name">GOLD EXPLORER</div><div class="tier-req">50+ KM</div><div class="tier-kids" id="tierGold"></div></div>
+      <div class="tier-card" style="--tc:#5DB7DE"><div class="tier-icon">💎</div><div class="tier-name">DIAMOND SUMMITER</div><div class="tier-req">100+ KM</div><div class="tier-kids" id="tierDiamond"></div></div>
+    </div>
+
+    <div class="ach-stats">
+      <div class="ach-stat"><b id="aKids">0</b><span>KIDS</span></div>
+      <div class="ach-stat"><b id="aKm">0</b><span>TOTAL KM</span></div>
+      <div class="ach-stat"><b id="aTop">0</b><span>TOP KM</span></div>
+    </div>
+
+    <input class="ach-search" id="lbSearch" type="search" placeholder="Search a name…" aria-label="Search a name">
+    <p class="ach-note">Kids with equal KM share the same rank. Highlighted rows have earned a badge.</p>
+    <ul class="lb" id="lbList"></ul>
+    <div id="lbNone">No kid found with that name.</div>
+  </div>
+</section>
+
+<section class="section section-alt" id="about">
+  <div class="inner">
+    <div class="about-inner">
+      <div class="about-text" style="background:var(--moss);padding:2rem;border-radius:8px">
+        <div class="sec-label" style="color:var(--gold)">Our Story</div>
+        <h2 class="sec-title sec-title-white">About <em>Tiny Trekkers</em></h2>
+        <p class="about-desc">Tiny Trekkers is a Pune-based adventure trekking company founded by a group of passionate hikers who fell in love with the Sahyadri mountains. What started as weekend trips with friends turned into a mission — to make the mountains accessible, safe, and joyful for everyone, <strong style="color:var(--gold)">mainly focused for kids.</strong></p>
+        <p class="about-desc">We are your trail companions — guiding first-timers and experienced hikers alike through Maharashtra's most stunning landscapes, with a commitment to safety, sustainability, and small-group experiences.</p>
+        <p class="about-desc">Every trek is led by certified guides. Every route is safety-scouted. Every meal is prepared fresh on trail. We handle the logistics so you can focus entirely on the experience.</p>
+        <div class="about-highlights">
+          <div class="ah-item"><div class="ah-icon">🧭</div><div class="ah-title">Certified Guides</div><div class="ah-desc">First aid and mountaineering certified</div></div>
+          <div class="ah-item"><div class="ah-icon">👥</div><div class="ah-title">Small Groups</div><div class="ah-desc">Max 15 per batch — quality over quantity</div></div>
+          <div class="ah-item"><div class="ah-icon">🌱</div><div class="ah-title">Eco Responsible</div><div class="ah-desc">Leave No Trace — always</div></div>
+          <div class="ah-item"><div class="ah-icon">💰</div><div class="ah-title">All Inclusive</div><div class="ah-desc">One price, full experience</div></div>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="as-card"><div class="as-num">500+</div><div class="as-label">Happy Trekkers</div></div>
+        <div class="as-card"><div class="as-num">18+</div><div class="as-label">Trek Routes</div></div>
+        <div class="as-card"><div class="as-num">4.9</div><div class="as-label">Average Rating</div></div>
+        <div class="as-card"><div class="as-num">100%</div><div class="as-label">Safety Record</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SUPPORT ── -->
+<section class="section" id="support">
+  <div class="inner">
+    <div class="sec-label">We're Here to Help</div>
+    <h2 class="sec-title">Support <em>Info</em></h2>
+    <p class="sec-sub">Reach us any time — we respond within 2 hours on WhatsApp and within the same day on email.</p>
+    <div class="support-grid">
+      <div class="support-card">
+        <div class="sc-icon sc-phone">📞</div>
+        <div>
+          <div class="sc-label">Phone</div>
+          <div class="sc-value"><a href="tel:+919096354524">+91 9096354524</a></div>
+          <div class="sc-note">Call us for trek details, group bookings, and any questions about routes or pricing.</div>
+        </div>
+      </div>
+      <div class="support-card">
+        <div class="sc-icon sc-wa">💬</div>
+        <div>
+          <div class="sc-label">WhatsApp (Fastest)</div>
+          <div class="sc-value"><a href="https://wa.me/919096354524" target="_blank">+91 9096354524</a></div>
+          <div class="sc-note">Message us on WhatsApp for instant booking, slot confirmation, and real-time support.</div>
+        </div>
+      </div>
+      <div class="support-card">
+        <div class="sc-icon sc-email">✉</div>
+        <div>
+          <div class="sc-label">Email</div>
+          <div class="sc-value"><a href="/cdn-cgi/l/email-protection#aedac7c0d7dadccbc5c5cbdcdd80dedbc0cbeec9c3cfc7c280cdc1c3"><span class="__cf_email__" data-cfemail="05716c6b7c7177606e6e6077762b75706b60456268646c692b666a68">[email&#160;protected]</span></a></div>
+          <div class="sc-note">For detailed enquiries, group trek proposals, corporate bookings, and feedback.</div>
+        </div>
+      </div>
+      <div class="support-card">
+        <div class="sc-icon sc-time">🕐</div>
+        <div>
+          <div class="sc-label">Support Hours</div>
+          <div class="sc-value">Mon – Sun, 8 AM – 8 PM</div>
+          <div class="sc-note">We are available all 7 days. On trek days, your guide is your primary on-trail contact.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── T&C ── -->
+<section class="section section-alt" id="tnc">
+  <div class="inner">
+    <div class="sec-label">Legal & Policies</div>
+    <h2 class="sec-title">Terms &amp; <em>Conditions</em></h2>
+    <p class="sec-sub">Please read our policies carefully before booking a trek with us.</p>
+    <div class="tnc-tabs">
+      <div class="tnc-tab active" onclick="showTnc('refund',this)">Refund &amp; Cancellation</div>
+      <div class="tnc-tab" onclick="showTnc('agreement',this)">User Agreement</div>
+      <div class="tnc-tab" onclick="showTnc('privacy',this)">Privacy Policy</div>
+      <div class="tnc-tab" onclick="showTnc('consent',this)">Consent</div>
+    </div>
+
+    <div class="tnc-panel active" id="tnc-refund">
+      <div class="tnc-content">
+        <div class="tnc-box"><p>Last updated: January 2025. Please contact us on WhatsApp or email before initiating any cancellation.</p></div>
+        <h3>Cancellation Policy</h3>
+        <ul>
+          <li><strong>7 or more days before trek date:</strong> Full refund — 100% of the amount paid.</li>
+          <li><strong>3 to 6 days before trek date:</strong> 50% refund of the amount paid.</li>
+          <li><strong>Less than 3 days before trek date:</strong> No refund. You may transfer your slot to another person.</li>
+          <li><strong>No-show on the day:</strong> No refund issued without prior notice.</li>
+          <li><strong>Advance payments:</strong> Advance booking fees are non-refundable within 3 days of the trek date.</li>
+        </ul>
+        <h3>Refund Policy</h3>
+        <ul>
+          <li>All approved refunds are processed within 5–7 business days to the original payment method.</li>
+          <li>If Tiny Trekkers cancels a trek, a <strong>full refund or free rescheduling</strong> is provided.</li>
+          <li>Token/advance amounts are non-refundable if cancelled within 3 days of the trek date.</li>
+        </ul>
+        <h3>Rescheduling</h3>
+        <p>You may reschedule to a future date with no charge if you notify us at least <strong>3 days in advance</strong>. Subject to slot availability.</p>
+      </div>
+    </div>
+
+    <div class="tnc-panel" id="tnc-agreement">
+      <div class="tnc-content">
+        <div class="tnc-box"><p>By booking a trek with Tiny Trekkers, you agree to the following terms.</p></div>
+        <h3>Acceptance of Terms</h3>
+        <p>By booking, you confirm that you have read, understood, and agree to be bound by these terms. This agreement is between you (the trekker) and Tiny Trekkers, Pune.</p>
+        <h3>Eligibility</h3>
+        <ul>
+          <li>Participants must be at least 12 years old. Under-18s need parent/guardian consent or accompaniment.</li>
+          <li>Participants must be in reasonably good physical health. Medical conditions must be disclosed at booking.</li>
+          <li>Tiny Trekkers reserves the right to refuse participation to anyone deemed unfit on the day.</li>
+        </ul>
+        <h3>Participant Responsibilities</h3>
+        <ul>
+          <li>Follow all instructions given by the trek leader and guide at all times.</li>
+          <li>Carry recommended gear as specified in the packing list shared after booking.</li>
+          <li>Do not litter on the trail. Carry all waste back with you.</li>
+          <li>Do not consume alcohol or intoxicants during the trek.</li>
+        </ul>
+        <h3>Liability Disclaimer</h3>
+        <p>Trekking involves inherent risks. By participating, you acknowledge these risks and agree that Tiny Trekkers shall not be held liable for any injury, loss, or damage, except where caused by proven negligence of Tiny Trekkers staff.</p>
+      </div>
+    </div>
+
+    <div class="tnc-panel" id="tnc-privacy">
+      <div class="tnc-content">
+        <div class="tnc-box"><p>Your privacy matters to us. We collect only what is necessary and never sell your information.</p></div>
+        <h3>Information We Collect</h3>
+        <ul>
+          <li>Full name and contact information (phone, email)</li>
+          <li>Emergency contact details</li>
+          <li>Relevant medical information disclosed voluntarily</li>
+          <li>Payment transaction references (we do not store card details)</li>
+        </ul>
+        <h3>How We Use Your Information</h3>
+        <ul>
+          <li>To confirm and manage your booking</li>
+          <li>To send trek details, packing lists, and itinerary</li>
+          <li>To contact you in emergencies on trek</li>
+          <li>To send updates about upcoming treks (you may opt out)</li>
+        </ul>
+        <h3>Data Sharing & Retention</h3>
+        <p>We do <strong>not</strong> sell or share your data for marketing. Data is retained for 2 years, then deleted on request. To request deletion: <strong><a href="/cdn-cgi/l/email-protection#baced3d4c3cec8dfd1d1dfc8c994cacfd4dffaddd7dbd3d694d9d5d7"><span class="__cf_email__" data-cfemail="097d6067707d7b6c62626c7b7a27797c676c496e64686065276a6664">[email&#160;protected]</span></a></strong></p>
+      </div>
+    </div>
+
+    <div class="tnc-panel" id="tnc-consent">
+      <div class="tnc-content">
+        <div class="tnc-box"><p>By booking with Tiny Trekkers, you provide the following consents.</p></div>
+        <h3>Health & Fitness Consent</h3>
+        <p>I confirm I am physically fit for the trek booked. I have disclosed all relevant medical conditions. Tiny Trekkers cannot be held liable for complications from undisclosed health issues.</p>
+        <h3>Risk Acknowledgement</h3>
+        <p>I acknowledge trekking involves inherent risks and voluntarily choose to participate. I agree not to hold Tiny Trekkers liable for any injury or accident unless caused by proven negligence.</p>
+        <h3>Emergency Medical Consent</h3>
+        <p>In a medical emergency, I consent to Tiny Trekkers arranging emergency action on my behalf, including medical evacuation and contacting emergency services.</p>
+        <h3>Communication Consent</h3>
+        <p>I consent to receiving WhatsApp and email communications related to my booking and upcoming treks. I may unsubscribe anytime by replying "STOP".</p>
+        <p>By completing a booking — via WhatsApp, phone, or online — you confirm agreement to all the above consents.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section class="section" id="contact">
+  <div class="inner">
+    <div class="contact-grid">
+      <div>
+        <div class="sec-label">Find Us</div>
+        <h2 class="sec-title">Contact <em>Info</em></h2>
+        <div class="contact-details">
+          <div class="cd-item">
+            <div class="cd-icon">📍</div>
+            <div>
+              <div class="cd-label">Company Address</div>
+              <div class="cd-value">62, Kharadkar Nagar, Sainikwadi,<br>Wadgaon Sheri, Pune,<br>Maharashtra 411014</div>
+            </div>
+          </div>
+          <div class="cd-item">
+            <div class="cd-icon">📞</div>
+            <div>
+              <div class="cd-label">Phone</div>
+              <div class="cd-value"><a href="tel:+919096354524">+91 9096354524</a></div>
+              <div class="cd-note">Available 8 AM – 8 PM, 7 days a week</div>
+            </div>
+          </div>
+          <div class="cd-item">
+            <div class="cd-icon">✉</div>
+            <div>
+              <div class="cd-label">Email</div>
+              <div class="cd-value"><a href="/cdn-cgi/l/email-protection#c7b3aea9beb3b5a2acaca2b5b4e9b7b2a9a287a0aaa6aeabe9a4a8aa"><span class="__cf_email__" data-cfemail="64100d0a1d1016010f0f0116174a14110a01240309050d084a070b09">[email&#160;protected]</span></a></div>
+              <div class="cd-note">We reply within 2 hours during business hours</div>
+            </div>
+          </div>
+          <div class="cd-item">
+            <div class="cd-icon">💬</div>
+            <div>
+              <div class="cd-label">WhatsApp (Fastest)</div>
+              <div class="cd-value"><a href="https://wa.me/919096354524" target="_blank">+91 9096354524</a></div>
+              <div class="cd-note">Message us for instant booking and slot confirmation</div>
+            </div>
+          </div>
+        </div>
+        <div class="wa-cta-box">
+          <div class="wa-cta-text">
+            <div class="wa-cta-title">Book Instantly on WhatsApp</div>
+            <div class="wa-cta-desc">Send us your preferred trek & date — we'll confirm your slot right away</div>
+          </div>
+          <a class="wa-cta-btn" href="https://wa.me/919096354524?text=Hi%20Tiny%20Trekkers!%20I%20want%20to%20book%20a%20trek." target="_blank">💬 Chat Now</a>
+        </div>
+      </div>
+      <div>
+        <div class="contact-map-wrap">
+          <div class="map-top">
+            <div class="map-name">Tiny Trekkers — Pune</div>
+            <div class="map-addr">62, Kharadkar Nagar, Sainikwadi,<br>Wadgaon Sheri, Pune 411014</div>
+          </div>
+          <div class="map-visual">
+            <div class="map-pin">📍</div>
+            <div class="map-text">Wadgaon Sheri, Pune 411014</div>
+          </div>
+          <a href="https://maps.google.com?q=62+Kharadkar+Nagar,Sainikwadi,Wadgaon+Sheri,Pune+411014" target="_blank" class="map-btn">Open in Google Maps →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="f-brand"><img src="data:image/jpeg;base64,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" alt="Tiny Trekkers logo"><span>Tiny<b>Trekkers</b></span></div>
+      <div class="f-tagline">Pune's favourite trekking companions — guiding adventurers through the Sahyadri mountains safely and joyfully.</div>
+      <div class="f-contact">
+        <span>📞 <a href="tel:+919096354524">+91 9096354524</a></span>
+        <span>✉ <a href="/cdn-cgi/l/email-protection#2b5f4245525f594e40404e5958055b5e454e6b4c464a424705484446"><span class="__cf_email__" data-cfemail="07736e697e7375626c6c627574297772696247606a666e6b2964686a">[email&#160;protected]</span></a></span>
+        <span>📍 62, Kharadkar Nagar, Sainikwadi, Wadgaon Sheri, Pune 411014</span>
+      </div>
+      <div class="f-social">
+        <!-- TODO: replace with your actual Instagram profile URL -->
+        <a href="https://www.instagram.com/tinytrekkers.pune" target="_blank" rel="noopener" aria-label="Tiny Trekkers on Instagram">📷</a>
+        <a href="https://wa.me/919096354524" target="_blank" rel="noopener" aria-label="Tiny Trekkers on WhatsApp">💬</a>
+      </div>
+    </div>
+    <div>
+      <div class="f-col-title">Quick Links</div>
+      <ul class="f-links">
+        <li><a href="#events">Upcoming Events</a></li>
+        <li><a href="#on-demand">Schedule on Demand</a></li>
+        <li><a href="#places">Trek Places</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#inquiry">Inquiry</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-title">Policies</div>
+      <ul class="f-links">
+        <li><a href="#tnc" onclick="showTnc('refund',null)">Refund &amp; Cancellation</a></li>
+        <li><a href="#tnc" onclick="showTnc('agreement',null)">User Agreement</a></li>
+        <li><a href="#tnc" onclick="showTnc('privacy',null)">Privacy Policy</a></li>
+        <li><a href="#tnc" onclick="showTnc('consent',null)">Consent Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Tiny Trekkers, Pune. All rights reserved.</span>
+    <span>Made with ❤ for the mountains · Wadgaon Sheri, Pune 411014</span>
+  </div>
+</footer>
+
+<!-- ── BOOKING MODAL ── -->
+<div class="bk-overlay" id="bk-overlay" onclick="bkOverlayClick(event)">
+  <div class="bk-modal" id="bk-modal">
+    <button class="bk-close" onclick="closeBookingModal()">✕</button>
+
+    <!-- Progress tabs -->
+    <div class="bk-progress">
+      <div class="bk-step-tab active" id="bk-tab-1">1 · Trek Info</div>
+      <div class="bk-step-tab" id="bk-tab-2">2 · Your Details</div>
+      <div class="bk-step-tab" id="bk-tab-3">3 · Payment</div>
+    </div>
+
+    <!-- PAGE 1 — Trek info + T&C -->
+    <div class="bk-page active" id="bk-page-1">
+      <div class="bk-trek-card">
+        <div class="bk-trek-name" id="bk-trek-name">Trek Name</div>
+        <div class="bk-trek-rows">
+          <div class="bk-trek-row">📅 <span id="bk-trek-date">Date</span></div>
+          <div class="bk-trek-row">📍 <span id="bk-trek-loc">Location</span></div>
+          <div class="bk-trek-row">🏢 Organised by Tiny Trekkers, Pune</div>
+        </div>
+        <div class="bk-amount-badge">🪑 Seat Booking Amount: <span id="bk-amount-badge">₹99</span></div>
+      </div>
+
+      <div class="bk-contact-strip">
+        <div class="bk-ci">📞 <strong>+91 9096354524</strong></div>
+        <div class="bk-ci">✉ <strong>tinytrekkers.pune@gmail.com</strong></div>
+        <div class="bk-ci">📍 <strong>Wadgaon Sheri, Pune 411014</strong></div>
+      </div>
+
+      <div class="bk-tnc-box">
+        <p><strong>Terms & Conditions</strong></p>
+        <p>• The advance amount secures your seat and is non-refundable within 3 days of the trek date.</p>
+        <p>• Balance payment is due on the day of the trek at the meeting point.</p>
+        <p>• Tiny Trekkers reserves the right to cancel a trek due to weather or safety concerns, in which case a full refund or rescheduling will be offered.</p>
+        <p>• Participants must be in good physical health. Medical conditions must be disclosed before the trek.</p>
+        <p>• Tiny Trekkers is not liable for injuries arising from participant negligence.</p>
+        <p>• By proceeding, you agree to our full Privacy Policy and User Agreement available on our website.</p>
+      </div>
+
+      <label class="bk-check-row">
+        <input type="checkbox" id="bk-tnc-check">
+        <span class="bk-check-label">I agree to share the information entered on this page with <strong>Tiny Trekkers</strong> (owner of this page) and <strong>Razorpay</strong>, adhering to applicable laws. I have read and accept the Terms &amp; Conditions above.</span>
+      </label>
+
+      <div class="bk-nav">
+        <div></div>
+        <button class="bk-btn-next" onclick="bkGoStep(2)">Continue →</button>
+      </div>
+    </div>
+
+    <!-- PAGE 2 — Customer details -->
+    <div class="bk-page" id="bk-page-2">
+      <div class="bk-amount-display">
+        <div class="bk-amount-label">Advance Payment Amount</div>
+        <div class="bk-amount-value" id="bk-amount-display">₹99</div>
+      </div>
+
+      <div class="bk-field">
+        <label class="bk-label">Email ID *</label>
+        <input type="email" class="bk-input" id="bk-email" placeholder="your@email.com">
+      </div>
+      <div class="bk-field">
+        <label class="bk-label">Phone Number *</label>
+        <div class="bk-phone-row">
+          <div class="bk-phone-prefix">🇮🇳 +91</div>
+          <input type="tel" class="bk-phone-input" id="bk-phone" placeholder="98765 43210" maxlength="10">
+        </div>
+      </div>
+      <div class="bk-field">
+        <label class="bk-label">Full Name of Kid *</label>
+        <input type="text" class="bk-input" id="bk-kid-name" placeholder="Child's full name">
+      </div>
+      <div class="bk-field">
+        <label class="bk-label">Full Name of Parent / Guardian *</label>
+        <input type="text" class="bk-input" id="bk-parent-name" placeholder="Parent's full name">
+      </div>
+      <div class="bk-field">
+        <label class="bk-label">Age of Kid *</label>
+        <input type="number" class="bk-input" id="bk-kid-age" placeholder="Age in years" min="1" max="18">
+      </div>
+      <div class="bk-field">
+        <label class="bk-label">Residential Address *</label>
+        <input type="text" class="bk-input" id="bk-address" placeholder="Flat, Society, Area, City – PIN">
+      </div>
+      <div class="bk-field">
+        <label class="bk-label">Emergency Contact Number *</label>
+        <div class="bk-phone-row">
+          <div class="bk-phone-prefix">🇮🇳 +91</div>
+          <input type="tel" class="bk-phone-input" id="bk-emergency" placeholder="Emergency contact" maxlength="10">
+        </div>
+      </div>
+
+      <div class="bk-disclaimer-box">
+        <strong>Disclaimer</strong><br>
+        I confirm that the child named above is physically fit and capable of participating in the trek. I understand that trekking involves physical activity and inherent outdoor risks. I voluntarily enrol the child with full awareness of these risks and agree not to hold Tiny Trekkers, its guides, or staff liable for any injury or accident unless caused by proven negligence on their part. In case of a medical emergency, I consent to Tiny Trekkers' team taking necessary first-aid and emergency action on the child's behalf. All information provided is accurate and I accept sole responsibility for any consequences arising from incorrect information.
+      </div>
+      <label class="bk-disclaimer-check">
+        <input type="checkbox" id="bk-disclaimer-check">
+        <span class="bk-disclaimer-label">I have read and accept the above Disclaimer. I confirm that all information provided is accurate and complete.</span>
+      </label>
+
+      <div class="bk-nav">
+        <button class="bk-btn-back" onclick="bkGoStep(1)">← Back</button>
+        <button class="bk-btn-next" onclick="bkGoStep(3)">Continue →</button>
+      </div>
+    </div>
+
+    <!-- PAGE 3 — Payment -->
+    <div class="bk-page" id="bk-page-3">
+      <div class="bk-payment-header">
+        <div class="bk-payment-icon">💳</div>
+        <div class="bk-payment-title">Complete Payment</div>
+        <div class="bk-payment-sub">Powered by Razorpay · 100% secure</div>
+      </div>
+
+      <div class="bk-order-summary">
+        <div class="bk-os-row"><span>Trek</span><span id="bk-summary-trek">Trek Name</span></div>
+        <div class="bk-os-row"><span>Date</span><span id="bk-summary-date">Date</span></div>
+        <div class="bk-os-row"><span>Kid's Name</span><span id="bk-summary-kid">—</span></div>
+        <div class="bk-os-row bk-os-total"><span>Advance to Pay</span><span id="bk-summary-amount">₹99</span></div>
+      </div>
+
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#7A6347;margin-bottom:0.75rem">Pay via</div>
+      <div class="bk-payment-methods">
+        <button class="bk-pay-btn selected" id="bk-pay-upi" onclick="selectPayMethod('upi')">
+          <span class="bk-pay-icon">📱</span>
+          <span class="bk-pay-label">UPI <small>Google Pay, PhonePe, Paytm, BHIM & more</small></span>
+          <span style="font-size:0.7rem;color:#4E7249;font-weight:700">Instant</span>
+        </button>
+        <button class="bk-pay-btn" id="bk-pay-card" onclick="selectPayMethod('card')">
+          <span class="bk-pay-icon">💳</span>
+          <span class="bk-pay-label">Debit / Credit Card <small>Visa, Mastercard, RuPay</small></span>
+        </button>
+        <button class="bk-pay-btn" id="bk-pay-nb" onclick="selectPayMethod('nb')">
+          <span class="bk-pay-icon">🏦</span>
+          <span class="bk-pay-label">Net Banking <small>All major Indian banks supported</small></span>
+        </button>
+      </div>
+
+      <button class="bk-razorpay-btn" onclick="launchRazorpay()">
+        🔒 Pay <span id="bk-pay-amount-btn">₹99</span> Securely via Razorpay
+      </button>
+      <div class="bk-secure-note">🔒 256-bit SSL encrypted · Your data is safe</div>
+
+      <div class="bk-nav" style="margin-top:1rem">
+        <button class="bk-btn-back" onclick="bkGoStep(2)">← Back</button>
+      </div>
+    </div>
+
+    <!-- SUCCESS screen -->
+    <div class="bk-success" id="bk-success">
+      <div class="bk-success-icon">🎉</div>
+      <div class="bk-success-title">Seat Booked!</div>
+      <div class="bk-success-ref" id="bk-ref-num">Ref #TT-00000</div>
+      <div class="bk-success-desc">Your seat is confirmed for <strong id="bk-success-trek">the trek</strong>.<br>A confirmation has been sent to your email and our team will WhatsApp you the full details shortly.</div>
+      <div style="margin-top:1.25rem;display:flex;flex-direction:column;gap:0.6rem;align-items:center">
+        <a href="https://wa.me/919096354524" target="_blank" style="display:inline-flex;align-items:center;gap:6px;background:#25D366;color:#fff;padding:0.65rem 1.4rem;border-radius:6px;font-size:0.85rem;font-weight:700;text-decoration:none">💬 Chat with us on WhatsApp</a>
+        <button onclick="closeBookingModal()" style="background:none;border:none;font-size:0.82rem;color:#7A6347;cursor:pointer;text-decoration:underline">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Razorpay checkout SDK -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
 <script>
-var q=document.getElementById('q'),rows=document.querySelectorAll('.row'),none=document.getElementById('none');
-q.addEventListener('input',function(){var t=q.value.trim().toLowerCase(),c=0;rows.forEach(function(r){var s=r.dataset.n.indexOf(t)>-1;r.style.display=s?'':'none';if(s)c++});none.style.display=c?'none':'block'});
+// ── MOBILE MENU ──
+function toggleMenu(){
+  document.getElementById('mobMenu').classList.toggle('open')
+}
+document.addEventListener('click', e => {
+  const menu = document.getElementById('mobMenu')
+  const ham  = document.querySelector('.hamburger')
+  if(menu.classList.contains('open') && !menu.contains(e.target) && !ham.contains(e.target)){
+    menu.classList.remove('open')
+  }
+})
+
+// ── T&C TABS ──
+function showTnc(id, el){
+  document.querySelectorAll('.tnc-panel').forEach(p => p.classList.remove('active'))
+  document.querySelectorAll('.tnc-tab').forEach(t => t.classList.remove('active'))
+  document.getElementById('tnc-'+id).classList.add('active')
+  if(el) el.classList.add('active')
+  else {
+    const map  = {refund:0, agreement:1, privacy:2, consent:3}
+    const tabs = document.querySelectorAll('.tnc-tab')
+    if(tabs[map[id]]) tabs[map[id]].classList.add('active')
+  }
+}
+
+// ── CALLBACK POPUP ──
+function openCallback(){
+  document.getElementById('cb-form-state').style.display   = 'block'
+  document.getElementById('cb-success-state').style.display = 'none'
+  document.getElementById('cb-overlay').classList.add('open')
+  document.body.style.overflow = 'hidden'
+  const d = document.getElementById('cb-date')
+  if(d) d.min = new Date().toISOString().split('T')[0]
+}
+function closeCallback(){
+  document.getElementById('cb-overlay').classList.remove('open')
+  document.body.style.overflow = ''
+}
+function closeCbOnOverlay(e){
+  if(e.target === document.getElementById('cb-overlay')) closeCallback()
+}
+function submitCallback(){
+  const name  = document.getElementById('cb-name').value.trim()
+  const phone = document.getElementById('cb-phone').value.trim()
+  const trek  = document.getElementById('cb-trek').value
+  const date  = document.getElementById('cb-date').value
+  const group = document.getElementById('cb-group').value
+  if(!name) { alert('Please enter your name.'); return }
+  if(!phone){ alert('Please enter your phone number.'); return }
+  if(!trek) { alert('Please select a trek.'); return }
+  let msg = `📞 *Callback Request — Tiny Trekkers*\n\n`
+  msg += `*Name:* ${name}\n*Phone:* ${phone}\n*Trek:* ${trek}\n`
+  if(date)  msg += `*Preferred Date:* ${date}\n`
+  if(group) msg += `*Group Size:* ${group} people\n`
+  msg += `\nPlease call back. Thank you!`
+  window.open(`https://wa.me/919096354524?text=${encodeURIComponent(msg)}`, '_blank')
+  document.getElementById('cb-form-state').style.display   = 'none'
+  document.getElementById('cb-success-state').style.display = 'block'
+}
+
+// ── BOOKING MODAL STATE ──
+let _bkTrek='', _bkDate='', _bkLoc='', _bkAdvance=99, _bkFull=499, _bkPayMethod='upi'
+
+function openBookingModal(trek, date, loc, advance, full){
+  _bkTrek=trek; _bkDate=date; _bkLoc=loc; _bkAdvance=advance; _bkFull=full; _bkPayMethod='upi'
+  // Reset all pages
+  bkGoStep(1, true)
+  // Fill page 1 info
+  document.getElementById('bk-trek-name').textContent   = trek
+  document.getElementById('bk-trek-date').textContent   = date
+  document.getElementById('bk-trek-loc').textContent    = loc
+  document.getElementById('bk-amount-badge').textContent = '₹'+advance
+  // Fill page 2 amount
+  document.getElementById('bk-amount-display').textContent = '₹'+advance
+  // Open overlay
+  document.getElementById('bk-overlay').classList.add('open')
+  document.body.style.overflow = 'hidden'
+  // Uncheck checkboxes
+  document.getElementById('bk-tnc-check').checked = false
+  document.getElementById('bk-disclaimer-check').checked = false
+  // Reset pay method UI
+  selectPayMethod('upi')
+}
+
+function closeBookingModal(){
+  document.getElementById('bk-overlay').classList.remove('open')
+  document.body.style.overflow = ''
+}
+function bkOverlayClick(e){
+  if(e.target === document.getElementById('bk-overlay')) closeBookingModal()
+}
+
+function bkGoStep(n, init){
+  if(!init){
+    // Validate before advancing
+    if(n===2){
+      if(!document.getElementById('bk-tnc-check').checked){
+        alert('Please read and accept the Terms & Conditions to continue.')
+        return
+      }
+    }
+    if(n===3){
+      const email    = document.getElementById('bk-email').value.trim()
+      const phone    = document.getElementById('bk-phone').value.trim()
+      const kidName  = document.getElementById('bk-kid-name').value.trim()
+      const parName  = document.getElementById('bk-parent-name').value.trim()
+      const kidAge   = document.getElementById('bk-kid-age').value.trim()
+      const addr     = document.getElementById('bk-address').value.trim()
+      const emg      = document.getElementById('bk-emergency').value.trim()
+      const disc     = document.getElementById('bk-disclaimer-check').checked
+      if(!email)  { alert('Please enter your email address.'); return }
+      if(!phone || phone.length < 10) { alert('Please enter a valid 10-digit phone number.'); return }
+      if(!kidName){ alert('Please enter the full name of the kid.'); return }
+      if(!parName){ alert('Please enter the parent/guardian full name.'); return }
+      if(!kidAge) { alert('Please enter the age of the kid.'); return }
+      if(!addr)   { alert('Please enter the residential address.'); return }
+      if(!emg || emg.length < 10){ alert('Please enter a valid emergency contact number.'); return }
+      if(!disc)   { alert('Please read and accept the Disclaimer to continue.'); return }
+      // Fill summary
+      document.getElementById('bk-summary-trek').textContent   = _bkTrek
+      document.getElementById('bk-summary-date').textContent   = _bkDate
+      document.getElementById('bk-summary-kid').textContent    = kidName
+      document.getElementById('bk-summary-amount').textContent = '₹'+_bkAdvance
+      document.getElementById('bk-pay-amount-btn').textContent = '₹'+_bkAdvance
+    }
+  }
+  // Update tabs
+  ;[1,2,3].forEach(i => {
+    const tab = document.getElementById('bk-tab-'+i)
+    tab.classList.remove('active','done')
+    if(i===n) tab.classList.add('active')
+    else if(i<n) tab.classList.add('done')
+  })
+  // Show correct page
+  ;[1,2,3].forEach(i => {
+    document.getElementById('bk-page-'+i).classList.toggle('active', i===n)
+  })
+  document.getElementById('bk-success').style.display = 'none'
+  document.getElementById('bk-modal').scrollTop = 0
+}
+
+function selectPayMethod(method){
+  _bkPayMethod = method
+  ;['upi','card','nb'].forEach(m => {
+    document.getElementById('bk-pay-'+m).classList.toggle('selected', m===method)
+  })
+}
+
+function launchRazorpay(){
+  const email    = document.getElementById('bk-email').value.trim()
+  const phone    = document.getElementById('bk-phone').value.trim()
+  const kidName  = document.getElementById('bk-kid-name').value.trim()
+  const parName  = document.getElementById('bk-parent-name').value.trim()
+
+  // ─────────────────────────────────────────────────────────────
+  // RAZORPAY INTEGRATION
+  // Replace 'YOUR_RAZORPAY_KEY_ID' with your actual key from:
+  // https://dashboard.razorpay.com → Settings → API Keys
+  // Also replace the Razorpay Payment Link URLs in the fallback
+  // with your actual pre-created payment links for ₹99 and ₹149
+  // ─────────────────────────────────────────────────────────────
+  const RAZORPAY_KEY = 'YOUR_RAZORPAY_KEY_ID'
+
+  // If Razorpay SDK loaded, use checkout
+  if(typeof Razorpay !== 'undefined' && RAZORPAY_KEY !== 'YOUR_RAZORPAY_KEY_ID'){
+    const options = {
+      key:         RAZORPAY_KEY,
+      amount:      _bkAdvance * 100,  // in paise
+      currency:    'INR',
+      name:        'Tiny Trekkers',
+      description: 'Seat booking — '+_bkTrek,
+      image:       '',
+      prefill: {
+        name:    parName,
+        email:   email,
+        contact: '+91'+phone
+      },
+      notes: {
+        trek:       _bkTrek,
+        trek_date:  _bkDate,
+        kid_name:   kidName,
+        parent:     parName
+      },
+      theme:      { color: '#C07A28' },
+      method:     _bkPayMethod === 'upi' ? { upi: true } : _bkPayMethod === 'card' ? { card: true } : { netbanking: true },
+      handler: function(response){
+        // Payment successful — show success screen
+        showBookingSuccess(response.razorpay_payment_id)
+        // Send booking details to owner via WhatsApp
+        sendOwnerWhatsApp(response.razorpay_payment_id)
+      },
+      modal: { ondismiss: function(){ console.log('Payment dismissed') } }
+    }
+    const rzp = new Razorpay(options)
+    rzp.open()
+  } else {
+    // ── FALLBACK: Redirect to pre-created Razorpay Payment Link ──
+    // Create these links once from https://dashboard.razorpay.com/app/payment-links
+    // Replace the URLs below with your actual payment link URLs
+    const paymentLinks = {
+      99:  'https://rzp.io/l/YOUR_VETAL_TEKADI_LINK',   // Replace with your ₹99 link
+      149: 'https://rzp.io/l/YOUR_MALHARGAD_LINK'        // Replace with your ₹149 link
+    }
+    const link = paymentLinks[_bkAdvance]
+    if(link && !link.includes('YOUR_')){
+      // Send details to owner first, then redirect
+      sendOwnerWhatsApp('pending')
+      window.open(link, '_blank')
+      showBookingSuccess('pending')
+    } else {
+      // No key set yet — show instructions
+      alert('Payment gateway setup pending.\n\nPlease contact us on WhatsApp to book:\n+91 9096354524\n\nOr email: tinytrekkers.pune@gmail.com')
+      const msg = buildOwnerMessage('N/A')
+      window.open(`https://wa.me/919096354524?text=${encodeURIComponent(msg)}`, '_blank')
+    }
+  }
+}
+
+function buildOwnerMessage(payId){
+  const kidName  = document.getElementById('bk-kid-name').value.trim()
+  const parName  = document.getElementById('bk-parent-name').value.trim()
+  const email    = document.getElementById('bk-email').value.trim()
+  const phone    = document.getElementById('bk-phone').value.trim()
+  const kidAge   = document.getElementById('bk-kid-age').value.trim()
+  const addr     = document.getElementById('bk-address').value.trim()
+  const emg      = document.getElementById('bk-emergency').value.trim()
+  return `🏔 *New Booking — Tiny Trekkers*\n\n` +
+    `*Trek:* ${_bkTrek}\n*Date:* ${_bkDate}\n*Advance Paid:* ₹${_bkAdvance}\n*Payment ID:* ${payId}\n\n` +
+    `*Kid Name:* ${kidName}\n*Kid Age:* ${kidAge} yrs\n*Parent:* ${parName}\n` +
+    `*Email:* ${email}\n*Phone:* +91${phone}\n*Address:* ${addr}\n*Emergency:* +91${emg}`
+}
+
+function sendOwnerWhatsApp(payId){
+  const msg = buildOwnerMessage(payId)
+  window.open(`https://wa.me/919096354524?text=${encodeURIComponent(msg)}`, '_blank')
+}
+
+function showBookingSuccess(payId){
+  ;[1,2,3].forEach(i => document.getElementById('bk-page-'+i).classList.remove('active'))
+  document.getElementById('bk-progress') // hide tabs visually
+  document.getElementById('bk-success').style.display = 'block'
+  document.getElementById('bk-success-trek').textContent = _bkTrek
+  document.getElementById('bk-ref-num').textContent = 'Ref #TT-' + Math.floor(10000+Math.random()*90000)
+}
+
+// ── ACTIVE NAV ON SCROLL ──
+const navSections = ['events','on-demand','places','gallery','achievements','about','support','tnc','contact']
+window.addEventListener('scroll', () => {
+  let current = ''
+  navSections.forEach(id => {
+    const el = document.getElementById(id)
+    if(el && window.scrollY >= el.offsetTop - 80) current = id
+  })
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.classList.remove('active')
+    if(a.getAttribute('href') === '#'+current) a.classList.add('active')
+  })
+})
+
+// ── KIDS ACHIEVEMENTS ──  (edit the KIDS list below: ["Name", km])
+const KIDS=[["Tvisha Mutha",29],["Yashika",29],["Idant Agrawal",27],["Prashi Patel",18],["Vaani Patel",18],["Jaanvi Maurya",18],["Atharva Sharma",17],["Norah Pathan",17],["Pratyusha Panigrahi",16],["Shanaya Agrawal",16],["Vivaan Nahar",16],["Kartikey Dekhane",14],["Jinanash Mutha",13],["Anvi Bhosale",11],["Chinmay Deshmukh",11],["Jenicka Desai",11],["Karnika Sangar",11],["Nishad Sangar",11],["Ovi Jadhav",11],["Nandini Sule",11],["Ganish Lalit Mahajan",6],["Kanika Bhalekar",6],["K Geethanvitha",6],["Kavyanjali Shukla",6],["Avani Bhalekar",6],["Shreshth Pujari",6],["Gauransh Pujari",6],["Pranati Bohra",6],["Mihir Vaibhav Gatne",6],["Kriyanshi",6],["Nia J",6],["Krisha G",6],["Aatish Nair",5],["Nirvaan Shah",5],["Prajwal Prasad Panse",5],["Pranjal Prasad Panse",5],["Rachna Nair",5],["Advay Lembhe",3],["Advik Amol Lunavat",3],["Aishwarya Modi",3],["Akshat Rathi",3],["Anay Modi",3],["Avneesh Mangesh Bhujbal",3],["Ayaansh Ponnappa",3],["Hridansh Gugale",3],["Hridya Gugale",3],["Jivya Sejpal",3],["Kavya",3],["Kiaan Agarwal",3],["Paarth Mutha",3],["Rian Shah",3],["Riyansh Salvi",3],["Saanjh Agarwal",3],["Shanaya Kshirsagar",3],["Sharanaya Srivastava",3],["Shlok Sumit Katariya",3],["Shriyansh Kshirsagar",3],["Viva Vaid",3],["Yuven Shah",3],["Aaradhya Gangadhari",2],["Aarika Pagariya",2],["Aman Maurya",2],["Amara Dopale",2],["Arham",2],["Asvi Srivastava",2],["Bidisha Panigrahi",2],["Dhrumi Jain",2],["Dhyaan Thakshe",2],["Durva",2],["Gargee",2],["Jija Galande",2],["Josiah Chowdhary",2],["Kavya (Vetal, guardian Seema)",2],["Khushi Jain",2],["Lavishka Barmecha",2],["Manasvi Salunkhe",2],["Nandika Jain",2],["Nitya Pai",2],["Saharsh Iyer",2],["Tarini Mehendale",2],["Tasmay Popat",2],["Trisha Kondekar",2],["Trusha Jain",2],["Viaansh Srivastava",2],["Vyom Thakkar",2]]
+const TIERS=[
+  {min:100,name:'DIAMOND SUMMITER',cls:'t-diamond',color:'#5DB7DE',box:'tierDiamond'},
+  {min:50,name:'GOLD EXPLORER',cls:'t-gold',color:'#DFA53A',box:'tierGold'},
+  {min:25,name:'SILVER STRIDER',cls:'t-silver',color:'#C0C7CE',box:'tierSilver'}
+]
+;(function(){
+  const kids=KIDS.slice().sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]))
+  const tierOf=km=>TIERS.find(t=>km>=t.min)
+  const esc=t=>t.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))
+  document.getElementById('aKids').textContent=kids.length
+  document.getElementById('aKm').textContent=kids.reduce((s,k)=>s+k[1],0)
+  document.getElementById('aTop').textContent=kids.length?kids[0][1]:0
+  TIERS.forEach(t=>{
+    const list=kids.filter(k=>tierOf(k[1])===t)
+    document.getElementById(t.box).innerHTML=list.length
+      ?list.map(k=>'<span>'+esc(k[0])+'<small>'+k[1]+' km</small></span>').join('')
+      :'<div class="tier-empty">Be the first to reach '+t.min+' km!</div>'
+  })
+  let rank=0,prev=null
+  document.getElementById('lbList').innerHTML=kids.map((k,i)=>{
+    if(k[1]!==prev){rank=i+1;prev=k[1]}
+    const t=tierOf(k[1])
+    const next=TIERS.slice().reverse().find(x=>k[1]<x.min)
+    const pct=next?Math.min(100,k[1]/next.min*100):100
+    const sub=next?'<small>'+(next.min-k[1])+' km to '+next.name+'</small>':''
+    return '<li class="lb-row '+(t?t.cls:'')+'" data-n="'+esc(k[0].toLowerCase())+'"><span class="lb-rk">'+rank+'</span><span class="lb-nm">'+esc(k[0])+sub+'</span><span class="lb-bar"><i style="width:'+pct.toFixed(1)+'%"></i></span>'+(t?'<span class="lb-badge" style="--tc:'+t.color+'">'+t.name+'</span>':'')+'<span class="lb-km">'+k[1]+'<small>KM</small></span></li>'
+  }).join('')
+  const q=document.getElementById('lbSearch'),none=document.getElementById('lbNone')
+  q.addEventListener('input',()=>{
+    const v=q.value.trim().toLowerCase();let c=0
+    document.querySelectorAll('#lbList .lb-row').forEach(r=>{const m=r.dataset.n.includes(v);r.style.display=m?'':'none';if(m)c++})
+    none.style.display=c?'none':'block'
+  })
+})()
 </script>
 </body>
 </html>
